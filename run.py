@@ -9,6 +9,7 @@ import time
 import re
 from selenium.webdriver.remote.remote_connection import LOGGER
 
+from modules.send_mail import send_email
 
 LOGGER.setLevel(logging.WARNING)
 LOG_FILENAME = 'webScrapper.log'
@@ -36,24 +37,24 @@ def main():
     ePageNum = args.ePageNum
     useProxy = args.useProxy
     delayInterval = args.delayInterval
-    inputUrl = args.inputUrl
+    input_url = args.inputUrl
     doCleanup = args.cleanup
 
     isResidential = args.isResidential
     isCommercial = args.isCommercial
     is_cars = args.is_cars
 
-    if (not inputUrl) and (not (isCommercial or isResidential or is_cars)):
+    if (not input_url) and (not (isCommercial or isResidential or is_cars)):
         logger.info("[!]. Please provide scrapping type either -r or -c or -v\n")
         exit(1)
 
-    if inputUrl:
-        inputUrl = inputUrl.strip()
-        if not validateUrl(inputUrl):
+    if input_url:
+        input_url = input_url.strip()
+        if not validateUrl(input_url):
             logger.info("[ERROR]. URL pattern doesn't seem right")
             exit(1)
 
-    if not inputUrl:
+    if not input_url:
         if sPageNum and (not ePageNum):
             print("[!]. End page number is not mentioned so only starting page number will be scrapped\n")
             ePageNum = sPageNum
@@ -65,7 +66,7 @@ def main():
         if ePageNum and (not sPageNum):
             print("[!]. Please provide start page number as well\n")
             exit(1)
-    elif inputUrl:
+    elif input_url:
         print("[!]. Start and End page ranges are ignored in case of custom URL\n")
     if useProxy:
         print("[>]. Firefox proxy profile enabled\n")
@@ -89,7 +90,7 @@ def main():
     index_parser = Yad2IndexParserSimple(html_mgr)
 
     exception_ids = []
-    if not inputUrl:
+    if not input_url:
         for pageNum in range(sPageNum, ePageNum + 1):
             target_url = raw_target_url.format(pageNum)
             logger.info("[>]. Scrapping Page {}: {}\n".format(pageNum, target_url))
@@ -114,8 +115,8 @@ def main():
         if doCleanup:
             logger.info("[!]. Performing a cleanup operations at path: {}".format(backDir))
 
-    elif inputUrl:
-        target_url = inputUrl
+    elif input_url:
+        target_url = input_url
         logger.info("[>]. Scrapping Url: {}\n".format(target_url))
 
         try:
@@ -131,7 +132,7 @@ def main():
     endTimeStamp = datetime.fromtimestamp(endTime).strftime('%Y-%m-%d-%H:%M:%S')
 
     if os.path.exists(outFile):
-        if inputUrl:
+        if input_url:
             send_email([outFile], 1, 1, timeStamp, endTimeStamp)
         else:
             send_email([outFile], sPageNum, ePageNum, timeStamp, endTimeStamp)

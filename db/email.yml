@@ -1,9 +1,10 @@
 ---
-username: malinvadim88@gmail.com
-password: RonMalinovsky2022
+smtp_username: malinvadim88@gmail.com
+smtp_password: iqraxjplttxucyag
 smtp_host: smtp.gmail.com
 smtp_port: 587
-receiver: malinvadim88@gmail.com
+recipient: 'vadimski30@gmail.com'
+sender: 'malinvadim88@gmail.com'
 ccContact: someone@someone.com
 subject: Data Scrapping Report
 body: Data report has been successfully generated

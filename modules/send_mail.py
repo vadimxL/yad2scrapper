@@ -16,14 +16,14 @@ def send_email(attachment_file_paths, start_page, end_page, start_time, end_time
 
     # Set up the email
     # Set up the SMTP server credentials
-    smtp_host = data['smtp_host']#  'smtp.gmail.com'
-    smtp_port = data['smtp_port']# 587
-    smtp_username = 'malinvadim88@gmail.com'
-    smtp_password = 'iqraxjplttxucyag'
+    smtp_host = data['smtp_host']  # 'smtp.gmail.com'
+    smtp_port = data['smtp_port']  # 587
+    smtp_username = data['smtp_username']  # 'malinvadim88@gmail.com'
+    smtp_password = data['smtp_password']  # 'iqraxjplttxucyag'
 
     # Set up the email content
-    sender = 'malinvadim88@gmail.com'
-    recipient = 'vadimski30@gmail.com'
+    sender = data['sender']  # 'malinvadim88@gmail.com'
+    recipient = data['recipient']  # 'vadimski30@gmail.com'
     subject = 'Email Subject'
     body = 'Data Scrapping Report'
     message = "Message: {}\nPages Range:{} - {}\nJob Start Time: {}\nJob Finished Time: {}".format(body, start_page,
@@ -53,4 +53,3 @@ def send_email(attachment_file_paths, start_page, end_page, start_time, end_time
 
     print('Email sent successfully!')
     logger.info("[>]. Report '{}' has been successfully emailed\n".format(attachment_file_paths))
-
