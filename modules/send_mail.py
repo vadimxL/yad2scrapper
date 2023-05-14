@@ -1,0 +1,48 @@
+import logging
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.application import MIMEApplication
+
+logger = logging.getLogger('webScrapper')
+
+
+def send_email(attachment_file_paths, start_page, end_page, start_time, end_time):
+    # Set up the email
+    # Set up the SMTP server credentials
+    smtp_host = 'smtp.gmail.com'
+    smtp_port = 587
+    smtp_username = 'malinvadim88@gmail.com'
+    smtp_password = 'iqraxjplttxucyag'
+
+    # Set up the email content
+    sender = 'malinvadim88@gmail.com'
+    recipient = 'vadimski30@gmail.com'
+    subject = 'Email Subject'
+    body = 'Data Scrapping Report'
+    message = "Message: {}\nPages Range:{} - {}\nJob Start Time: {}\nJob Finished Time: {}".format(body, start_page,
+                                                                                                   end_page, start_time,
+                                                                                                   end_time)
+
+    # Create a multipart message and set headers
+    msg = MIMEMultipart()
+    msg['From'] = sender
+    msg['To'] = recipient
+    msg['Subject'] = subject
+
+    # Add the message body to the email
+    msg.attach(MIMEText(message, 'plain'))
+
+    for file_path in attachment_file_paths:
+        with open(file_path, 'rb') as file:
+            part = MIMEApplication(file.read())
+            part.add_header('Content-Disposition', 'attachment', filename=file_path)
+            msg.attach(part)
+
+    # Create an SMTP session
+    with smtplib.SMTP(smtp_host, smtp_port) as server:
+        server.starttls()  # Enable encryption for security
+        server.login(smtp_username, smtp_password)
+        server.send_message(msg)
+
+    print('Email sent successfully!')

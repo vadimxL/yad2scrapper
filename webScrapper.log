@@ -1,0 +1,1158 @@
+2023-05-12 22:55:25,305 indexParser     INFO     MainProcess[283528]get_index_records: Fetching records from index page
+2023-05-12 22:55:25,305 indexParser     INFO     MainProcess[283528]get_index_records: Fetched 40 elements from index page
+2023-05-12 22:56:08,126 webScrapper     INFO     MainProcess[284399]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 22:56:08,126 indexParser     INFO     MainProcess[284399]get_index_records: Fetching records from index page
+2023-05-12 22:56:08,127 indexParser     INFO     MainProcess[284399]get_index_records: Fetched 40 elements from index page
+2023-05-12 22:56:08,200 webScrapper     INFO     MainProcess[284399]      main: [!]. Dumping data into output file
+2023-05-12 22:57:06,980 webScrapper     INFO     MainProcess[285510]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 22:57:06,980 indexParser     INFO     MainProcess[285510]get_index_records: Fetching records from index page
+2023-05-12 22:57:06,981 indexParser     INFO     MainProcess[285510]get_index_records: Fetched 40 elements from index page
+2023-05-12 22:57:07,052 webScrapper     INFO     MainProcess[285510]      main: [!]. Dumping data into output file
+2023-05-12 22:57:30,924 webScrapper     INFO     MainProcess[285949]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 22:57:30,924 indexParser     INFO     MainProcess[285949]get_index_records: Fetching records from index page
+2023-05-12 22:57:30,924 indexParser     INFO     MainProcess[285949]get_index_records: Fetched 40 elements from index page
+2023-05-12 22:57:30,998 webScrapper     INFO     MainProcess[285949]      main: [!]. Dumping data into output file
+2023-05-12 22:57:51,055 webScrapper     INFO     MainProcess[286364]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 22:57:51,055 indexParser     INFO     MainProcess[286364]get_index_records: Fetching records from index page
+2023-05-12 22:57:51,055 indexParser     INFO     MainProcess[286364]get_index_records: Fetched 40 elements from index page
+2023-05-12 22:57:56,384 webScrapper     INFO     MainProcess[286364]      main: [!]. Dumping data into output file
+2023-05-12 22:58:05,944 webScrapper     INFO     MainProcess[286652]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 22:58:05,944 indexParser     INFO     MainProcess[286652]get_index_records: Fetching records from index page
+2023-05-12 22:58:05,944 indexParser     INFO     MainProcess[286652]get_index_records: Fetched 40 elements from index page
+2023-05-12 22:58:06,177 webScrapper     INFO     MainProcess[286652]      main: [!]. Dumping data into output file
+2023-05-12 23:03:13,258 webScrapper     INFO     MainProcess[292233]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:03:13,258 indexParser     INFO     MainProcess[292233]get_index_records: Fetching records from index page
+2023-05-12 23:03:13,259 indexParser     INFO     MainProcess[292233]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:03:13,331 webScrapper     INFO     MainProcess[292233]      main: [!]. Dumping data into output file
+2023-05-12 23:03:43,371 webScrapper     INFO     MainProcess[292797]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:03:43,372 indexParser     INFO     MainProcess[292797]get_index_records: Fetching records from index page
+2023-05-12 23:03:43,372 indexParser     INFO     MainProcess[292797]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:03:43,598 webScrapper     INFO     MainProcess[292797]      main: [!]. Dumping data into output file
+2023-05-12 23:04:11,052 webScrapper     INFO     MainProcess[293391]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:04:11,052 indexParser     INFO     MainProcess[293391]get_index_records: Fetching records from index page
+2023-05-12 23:04:11,052 indexParser     INFO     MainProcess[293391]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:04:11,129 webScrapper     INFO     MainProcess[293391]      main: [!]. Dumping data into output file
+2023-05-12 23:04:19,809 webScrapper     INFO     MainProcess[293498]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:04:19,809 indexParser     INFO     MainProcess[293498]get_index_records: Fetching records from index page
+2023-05-12 23:04:19,809 indexParser     INFO     MainProcess[293498]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:04:20,048 webScrapper     INFO     MainProcess[293498]      main: [!]. Dumping data into output file
+2023-05-12 23:05:21,517 webScrapper     INFO     MainProcess[294656]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:05:21,518 indexParser     INFO     MainProcess[294656]get_index_records: Fetching records from index page
+2023-05-12 23:05:21,518 indexParser     INFO     MainProcess[294656]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:05:21,746 webScrapper     INFO     MainProcess[294656]      main: [!]. Dumping data into output file
+2023-05-12 23:05:21,747 webScrapper     INFO     MainProcess[294656]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:05:21,747 indexParser     INFO     MainProcess[294656]get_index_records: Fetching records from index page
+2023-05-12 23:05:21,747 indexParser     INFO     MainProcess[294656]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:05:21,951 webScrapper     INFO     MainProcess[294656]      main: [!]. Dumping data into output file
+2023-05-12 23:05:21,951 webScrapper     INFO     MainProcess[294656]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:05:21,951 indexParser     INFO     MainProcess[294656]get_index_records: Fetching records from index page
+2023-05-12 23:05:21,951 indexParser     INFO     MainProcess[294656]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:05:22,164 webScrapper     INFO     MainProcess[294656]      main: [!]. Dumping data into output file
+2023-05-12 23:05:22,164 webScrapper     INFO     MainProcess[294656]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:05:22,164 indexParser     INFO     MainProcess[294656]get_index_records: Fetching records from index page
+2023-05-12 23:05:22,164 indexParser     INFO     MainProcess[294656]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:05:22,384 webScrapper     INFO     MainProcess[294656]      main: [!]. Dumping data into output file
+2023-05-12 23:05:22,385 webScrapper     INFO     MainProcess[294656]prepareReport: [!]. Merging 0 part files to create a consolidated report
+
+2023-05-12 23:05:25,832 webScrapper     INFO     MainProcess[294784]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:05:25,832 indexParser     INFO     MainProcess[294784]get_index_records: Fetching records from index page
+2023-05-12 23:05:25,832 indexParser     INFO     MainProcess[294784]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:05:25,904 webScrapper     INFO     MainProcess[294784]      main: [!]. Dumping data into output file
+2023-05-12 23:05:25,904 webScrapper     INFO     MainProcess[294784]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:05:25,904 indexParser     INFO     MainProcess[294784]get_index_records: Fetching records from index page
+2023-05-12 23:05:25,904 indexParser     INFO     MainProcess[294784]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:05:25,973 webScrapper     INFO     MainProcess[294784]      main: [!]. Dumping data into output file
+2023-05-12 23:05:25,973 webScrapper     INFO     MainProcess[294784]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:05:25,973 indexParser     INFO     MainProcess[294784]get_index_records: Fetching records from index page
+2023-05-12 23:05:25,973 indexParser     INFO     MainProcess[294784]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:05:26,057 webScrapper     INFO     MainProcess[294784]      main: [!]. Dumping data into output file
+2023-05-12 23:05:26,057 webScrapper     INFO     MainProcess[294784]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:05:26,057 indexParser     INFO     MainProcess[294784]get_index_records: Fetching records from index page
+2023-05-12 23:05:26,057 indexParser     INFO     MainProcess[294784]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:05:26,130 webScrapper     INFO     MainProcess[294784]      main: [!]. Dumping data into output file
+2023-05-12 23:05:26,130 webScrapper     INFO     MainProcess[294784]prepareReport: [!]. Merging 0 part files to create a consolidated report
+
+2023-05-12 23:05:51,682 webScrapper     INFO     MainProcess[295287]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:05:51,682 indexParser     INFO     MainProcess[295287]get_index_records: Fetching records from index page
+2023-05-12 23:05:51,682 indexParser     INFO     MainProcess[295287]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:05:51,908 webScrapper     INFO     MainProcess[295287]      main: [!]. Dumping data into output file
+2023-05-12 23:05:51,909 webScrapper     INFO     MainProcess[295287]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:05:51,909 indexParser     INFO     MainProcess[295287]get_index_records: Fetching records from index page
+2023-05-12 23:05:51,909 indexParser     INFO     MainProcess[295287]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:05:52,117 webScrapper     INFO     MainProcess[295287]      main: [!]. Dumping data into output file
+2023-05-12 23:05:52,117 webScrapper     INFO     MainProcess[295287]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:05:52,117 indexParser     INFO     MainProcess[295287]get_index_records: Fetching records from index page
+2023-05-12 23:05:52,117 indexParser     INFO     MainProcess[295287]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:05:52,327 webScrapper     INFO     MainProcess[295287]      main: [!]. Dumping data into output file
+2023-05-12 23:05:52,328 webScrapper     INFO     MainProcess[295287]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:05:52,328 indexParser     INFO     MainProcess[295287]get_index_records: Fetching records from index page
+2023-05-12 23:05:52,328 indexParser     INFO     MainProcess[295287]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:05:52,539 webScrapper     INFO     MainProcess[295287]      main: [!]. Dumping data into output file
+2023-05-12 23:06:46,937 webScrapper     INFO     MainProcess[295287]prepareReport: [!]. Merging 0 part files to create a consolidated report
+
+2023-05-12 23:07:05,017 webScrapper     INFO     MainProcess[296819]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:07:05,017 indexParser     INFO     MainProcess[296819]get_index_records: Fetching records from index page
+2023-05-12 23:07:05,017 indexParser     INFO     MainProcess[296819]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:07:05,090 webScrapper     INFO     MainProcess[296819]      main: [!]. Dumping data into output file
+2023-05-12 23:07:05,090 webScrapper     INFO     MainProcess[296819]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:07:05,090 indexParser     INFO     MainProcess[296819]get_index_records: Fetching records from index page
+2023-05-12 23:07:05,091 indexParser     INFO     MainProcess[296819]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:07:05,161 webScrapper     INFO     MainProcess[296819]      main: [!]. Dumping data into output file
+2023-05-12 23:07:05,161 webScrapper     INFO     MainProcess[296819]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:07:05,161 indexParser     INFO     MainProcess[296819]get_index_records: Fetching records from index page
+2023-05-12 23:07:05,161 indexParser     INFO     MainProcess[296819]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:07:05,246 webScrapper     INFO     MainProcess[296819]      main: [!]. Dumping data into output file
+2023-05-12 23:07:05,246 webScrapper     INFO     MainProcess[296819]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:07:05,246 indexParser     INFO     MainProcess[296819]get_index_records: Fetching records from index page
+2023-05-12 23:07:05,246 indexParser     INFO     MainProcess[296819]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:07:05,321 webScrapper     INFO     MainProcess[296819]      main: [!]. Dumping data into output file
+2023-05-12 23:07:05,321 webScrapper     INFO     MainProcess[296819]prepareReport: [!]. Merging 0 part files to create a consolidated report
+
+2023-05-12 23:07:10,487 webScrapper     INFO     MainProcess[296906]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:07:10,487 indexParser     INFO     MainProcess[296906]get_index_records: Fetching records from index page
+2023-05-12 23:07:10,487 indexParser     INFO     MainProcess[296906]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:07:10,561 webScrapper     INFO     MainProcess[296906]      main: [!]. Dumping data into output file
+2023-05-12 23:07:10,562 webScrapper     INFO     MainProcess[296906]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:07:10,562 indexParser     INFO     MainProcess[296906]get_index_records: Fetching records from index page
+2023-05-12 23:07:10,562 indexParser     INFO     MainProcess[296906]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:07:10,634 webScrapper     INFO     MainProcess[296906]      main: [!]. Dumping data into output file
+2023-05-12 23:07:10,634 webScrapper     INFO     MainProcess[296906]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:07:10,634 indexParser     INFO     MainProcess[296906]get_index_records: Fetching records from index page
+2023-05-12 23:07:10,634 indexParser     INFO     MainProcess[296906]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:07:10,718 webScrapper     INFO     MainProcess[296906]      main: [!]. Dumping data into output file
+2023-05-12 23:07:10,718 webScrapper     INFO     MainProcess[296906]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:07:10,718 indexParser     INFO     MainProcess[296906]get_index_records: Fetching records from index page
+2023-05-12 23:07:10,719 indexParser     INFO     MainProcess[296906]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:07:10,792 webScrapper     INFO     MainProcess[296906]      main: [!]. Dumping data into output file
+2023-05-12 23:07:10,792 webScrapper     INFO     MainProcess[296906]prepareReport: [!]. Merging 0 part files to create a consolidated report
+
+2023-05-12 23:07:33,507 webScrapper     INFO     MainProcess[297272]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:07:33,507 indexParser     INFO     MainProcess[297272]get_index_records: Fetching records from index page
+2023-05-12 23:07:33,508 indexParser     INFO     MainProcess[297272]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:07:33,583 webScrapper     INFO     MainProcess[297272]      main: [!]. Dumping data into output file
+2023-05-12 23:07:33,583 webScrapper     INFO     MainProcess[297272]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:07:33,583 indexParser     INFO     MainProcess[297272]get_index_records: Fetching records from index page
+2023-05-12 23:07:33,583 indexParser     INFO     MainProcess[297272]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:07:33,656 webScrapper     INFO     MainProcess[297272]      main: [!]. Dumping data into output file
+2023-05-12 23:07:33,656 webScrapper     INFO     MainProcess[297272]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:07:33,656 indexParser     INFO     MainProcess[297272]get_index_records: Fetching records from index page
+2023-05-12 23:07:33,656 indexParser     INFO     MainProcess[297272]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:07:33,740 webScrapper     INFO     MainProcess[297272]      main: [!]. Dumping data into output file
+2023-05-12 23:07:33,740 webScrapper     INFO     MainProcess[297272]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:07:33,741 indexParser     INFO     MainProcess[297272]get_index_records: Fetching records from index page
+2023-05-12 23:07:33,741 indexParser     INFO     MainProcess[297272]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:07:33,816 webScrapper     INFO     MainProcess[297272]      main: [!]. Dumping data into output file
+2023-05-12 23:07:33,816 webScrapper     INFO     MainProcess[297272]prepareReport: [!]. Merging 0 part files to create a consolidated report
+
+2023-05-12 23:07:33,816 webScrapper     WARNING  MainProcess[297272]prepareReport: [!]. Exception happened while merging part files
+2023-05-12 23:07:33,816 webScrapper     INFO     MainProcess[297272]      main: [!]. Task launched at '2023-05-12-23:07:33'
+
+2023-05-12 23:07:33,816 webScrapper     INFO     MainProcess[297272]      main: [!]. Total encountered Exceptions: 0
+2023-05-12 23:07:33,816 webScrapper     INFO     MainProcess[297272]      main: [!]. Encountered Exception IDs: 
+2023-05-12 23:09:31,016 webScrapper     INFO     MainProcess[299415]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:09:31,016 indexParser     INFO     MainProcess[299415]get_index_records: Fetching records from index page
+2023-05-12 23:09:31,016 indexParser     INFO     MainProcess[299415]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:09:31,241 webScrapper     INFO     MainProcess[299415]      main: [!]. Dumping data into output file
+2023-05-12 23:09:31,242 webScrapper     INFO     MainProcess[299415]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:09:31,242 indexParser     INFO     MainProcess[299415]get_index_records: Fetching records from index page
+2023-05-12 23:09:31,242 indexParser     INFO     MainProcess[299415]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:09:31,448 webScrapper     INFO     MainProcess[299415]      main: [!]. Dumping data into output file
+2023-05-12 23:09:31,448 webScrapper     INFO     MainProcess[299415]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:09:31,448 indexParser     INFO     MainProcess[299415]get_index_records: Fetching records from index page
+2023-05-12 23:09:31,449 indexParser     INFO     MainProcess[299415]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:09:31,657 webScrapper     INFO     MainProcess[299415]      main: [!]. Dumping data into output file
+2023-05-12 23:09:31,658 webScrapper     INFO     MainProcess[299415]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:09:31,658 indexParser     INFO     MainProcess[299415]get_index_records: Fetching records from index page
+2023-05-12 23:09:31,658 indexParser     INFO     MainProcess[299415]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:09:31,865 webScrapper     INFO     MainProcess[299415]      main: [!]. Dumping data into output file
+2023-05-12 23:09:50,580 webScrapper     INFO     MainProcess[299840]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:09:50,580 indexParser     INFO     MainProcess[299840]get_index_records: Fetching records from index page
+2023-05-12 23:09:50,580 indexParser     INFO     MainProcess[299840]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:09:50,804 webScrapper     INFO     MainProcess[299840]      main: [!]. Dumping data into output file
+2023-05-12 23:10:32,970 webScrapper     INFO     MainProcess[300721]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:10:32,970 indexParser     INFO     MainProcess[300721]get_index_records: Fetching records from index page
+2023-05-12 23:10:32,970 indexParser     INFO     MainProcess[300721]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:10:33,043 webScrapper     INFO     MainProcess[300721]      main: [!]. Dumping data into output file
+2023-05-12 23:10:48,862 webScrapper     INFO     MainProcess[301048]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:10:48,862 indexParser     INFO     MainProcess[301048]get_index_records: Fetching records from index page
+2023-05-12 23:10:48,862 indexParser     INFO     MainProcess[301048]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:10:49,086 webScrapper     INFO     MainProcess[301048]      main: [!]. Dumping data into output file
+2023-05-12 23:11:26,426 webScrapper     INFO     MainProcess[301766]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:11:26,426 indexParser     INFO     MainProcess[301766]get_index_records: Fetching records from index page
+2023-05-12 23:11:26,426 indexParser     INFO     MainProcess[301766]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:11:26,648 webScrapper     INFO     MainProcess[301766]      main: [!]. Dumping data into output file
+2023-05-12 23:11:49,657 webScrapper     INFO     MainProcess[302210]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:11:49,657 indexParser     INFO     MainProcess[302210]get_index_records: Fetching records from index page
+2023-05-12 23:11:49,657 indexParser     INFO     MainProcess[302210]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:11:49,730 webScrapper     INFO     MainProcess[302210]      main: [!]. Dumping data into output file
+2023-05-12 23:11:56,568 webScrapper     INFO     MainProcess[302385]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:11:56,569 indexParser     INFO     MainProcess[302385]get_index_records: Fetching records from index page
+2023-05-12 23:11:56,569 indexParser     INFO     MainProcess[302385]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:11:56,639 webScrapper     INFO     MainProcess[302385]      main: [!]. Dumping data into output file
+2023-05-12 23:12:14,092 webScrapper     INFO     MainProcess[302662]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:12:14,092 indexParser     INFO     MainProcess[302662]get_index_records: Fetching records from index page
+2023-05-12 23:12:14,092 indexParser     INFO     MainProcess[302662]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:12:14,163 webScrapper     INFO     MainProcess[302662]      main: [!]. Dumping data into output file
+2023-05-12 23:12:14,163 webScrapper     INFO     MainProcess[302662]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:12:14,163 indexParser     INFO     MainProcess[302662]get_index_records: Fetching records from index page
+2023-05-12 23:12:14,163 indexParser     INFO     MainProcess[302662]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:12:14,232 webScrapper     INFO     MainProcess[302662]      main: [!]. Dumping data into output file
+2023-05-12 23:12:14,233 webScrapper     INFO     MainProcess[302662]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:12:14,233 indexParser     INFO     MainProcess[302662]get_index_records: Fetching records from index page
+2023-05-12 23:12:14,233 indexParser     INFO     MainProcess[302662]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:12:14,318 webScrapper     INFO     MainProcess[302662]      main: [!]. Dumping data into output file
+2023-05-12 23:12:14,318 webScrapper     INFO     MainProcess[302662]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:12:14,318 indexParser     INFO     MainProcess[302662]get_index_records: Fetching records from index page
+2023-05-12 23:12:14,318 indexParser     INFO     MainProcess[302662]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:12:14,392 webScrapper     INFO     MainProcess[302662]      main: [!]. Dumping data into output file
+2023-05-12 23:12:14,392 webScrapper     INFO     MainProcess[302662]prepareReport: [!]. Merging 0 part files to create a consolidated report
+
+2023-05-12 23:12:14,392 webScrapper     WARNING  MainProcess[302662]prepareReport: [!]. Exception happened while merging part files
+2023-05-12 23:12:14,392 webScrapper     INFO     MainProcess[302662]      main: [!]. Task launched at '2023-05-12-23:12:14'
+
+2023-05-12 23:12:14,392 webScrapper     INFO     MainProcess[302662]      main: [!]. Total encountered Exceptions: 0
+2023-05-12 23:12:14,393 webScrapper     INFO     MainProcess[302662]      main: [!]. Encountered Exception IDs: 
+2023-05-12 23:12:26,885 webScrapper     INFO     MainProcess[302925]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:12:26,885 indexParser     INFO     MainProcess[302925]get_index_records: Fetching records from index page
+2023-05-12 23:12:26,885 indexParser     INFO     MainProcess[302925]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:12:26,959 webScrapper     INFO     MainProcess[302925]      main: [!]. Dumping data into output file
+2023-05-12 23:12:26,959 webScrapper     INFO     MainProcess[302925]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:12:26,959 indexParser     INFO     MainProcess[302925]get_index_records: Fetching records from index page
+2023-05-12 23:12:26,959 indexParser     INFO     MainProcess[302925]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:12:27,031 webScrapper     INFO     MainProcess[302925]      main: [!]. Dumping data into output file
+2023-05-12 23:12:27,031 webScrapper     INFO     MainProcess[302925]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:12:27,031 indexParser     INFO     MainProcess[302925]get_index_records: Fetching records from index page
+2023-05-12 23:12:27,031 indexParser     INFO     MainProcess[302925]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:12:27,115 webScrapper     INFO     MainProcess[302925]      main: [!]. Dumping data into output file
+2023-05-12 23:12:27,115 webScrapper     INFO     MainProcess[302925]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:12:27,115 indexParser     INFO     MainProcess[302925]get_index_records: Fetching records from index page
+2023-05-12 23:12:27,115 indexParser     INFO     MainProcess[302925]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:12:27,191 webScrapper     INFO     MainProcess[302925]      main: [!]. Dumping data into output file
+2023-05-12 23:12:27,192 webScrapper     INFO     MainProcess[302925]prepareReport: [!]. Merging 0 part files to create a consolidated report
+
+2023-05-12 23:12:27,192 webScrapper     WARNING  MainProcess[302925]prepareReport: [!]. Exception happened while merging part files
+2023-05-12 23:12:27,192 webScrapper     INFO     MainProcess[302925]      main: [!]. Task launched at '2023-05-12-23:12:27'
+
+2023-05-12 23:12:27,192 webScrapper     INFO     MainProcess[302925]      main: [!]. Total encountered Exceptions: 0
+2023-05-12 23:12:27,192 webScrapper     INFO     MainProcess[302925]      main: [!]. Encountered Exception IDs: 
+2023-05-12 23:12:53,544 webScrapper     INFO     MainProcess[303448]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:12:53,544 indexParser     INFO     MainProcess[303448]get_index_records: Fetching records from index page
+2023-05-12 23:12:53,544 indexParser     INFO     MainProcess[303448]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:12:53,616 webScrapper     INFO     MainProcess[303448]      main: [!]. Dumping data into output file
+2023-05-12 23:12:53,617 webScrapper     INFO     MainProcess[303448]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:12:53,617 indexParser     INFO     MainProcess[303448]get_index_records: Fetching records from index page
+2023-05-12 23:12:53,617 indexParser     INFO     MainProcess[303448]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:12:53,687 webScrapper     INFO     MainProcess[303448]      main: [!]. Dumping data into output file
+2023-05-12 23:12:53,687 webScrapper     INFO     MainProcess[303448]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:12:53,687 indexParser     INFO     MainProcess[303448]get_index_records: Fetching records from index page
+2023-05-12 23:12:53,687 indexParser     INFO     MainProcess[303448]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:12:53,773 webScrapper     INFO     MainProcess[303448]      main: [!]. Dumping data into output file
+2023-05-12 23:12:53,773 webScrapper     INFO     MainProcess[303448]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:12:53,773 indexParser     INFO     MainProcess[303448]get_index_records: Fetching records from index page
+2023-05-12 23:12:53,773 indexParser     INFO     MainProcess[303448]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:12:53,844 webScrapper     INFO     MainProcess[303448]      main: [!]. Dumping data into output file
+2023-05-12 23:12:53,844 webScrapper     INFO     MainProcess[303448]prepareReport: [!]. Merging 0 part files to create a consolidated report
+
+2023-05-12 23:12:53,844 webScrapper     WARNING  MainProcess[303448]prepareReport: [!]. Exception happened while merging part files
+2023-05-12 23:12:53,844 webScrapper     INFO     MainProcess[303448]      main: [!]. Task launched at '2023-05-12-23:12:53'
+
+2023-05-12 23:12:53,844 webScrapper     INFO     MainProcess[303448]      main: [!]. Total encountered Exceptions: 0
+2023-05-12 23:12:53,844 webScrapper     INFO     MainProcess[303448]      main: [!]. Encountered Exception IDs: 
+2023-05-12 23:13:01,195 webScrapper     INFO     MainProcess[303608]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:13:01,195 indexParser     INFO     MainProcess[303608]get_index_records: Fetching records from index page
+2023-05-12 23:13:01,195 indexParser     INFO     MainProcess[303608]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:13:01,270 webScrapper     INFO     MainProcess[303608]      main: [!]. Dumping data into output file
+2023-05-12 23:13:01,270 webScrapper     INFO     MainProcess[303608]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:13:01,270 indexParser     INFO     MainProcess[303608]get_index_records: Fetching records from index page
+2023-05-12 23:13:01,270 indexParser     INFO     MainProcess[303608]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:13:01,340 webScrapper     INFO     MainProcess[303608]      main: [!]. Dumping data into output file
+2023-05-12 23:13:01,340 webScrapper     INFO     MainProcess[303608]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:13:01,340 indexParser     INFO     MainProcess[303608]get_index_records: Fetching records from index page
+2023-05-12 23:13:01,340 indexParser     INFO     MainProcess[303608]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:13:01,425 webScrapper     INFO     MainProcess[303608]      main: [!]. Dumping data into output file
+2023-05-12 23:13:01,425 webScrapper     INFO     MainProcess[303608]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:13:01,425 indexParser     INFO     MainProcess[303608]get_index_records: Fetching records from index page
+2023-05-12 23:13:01,425 indexParser     INFO     MainProcess[303608]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:13:01,497 webScrapper     INFO     MainProcess[303608]      main: [!]. Dumping data into output file
+2023-05-12 23:13:01,498 webScrapper     INFO     MainProcess[303608]prepareReport: [!]. Merging 0 part files to create a consolidated report
+
+2023-05-12 23:13:01,498 webScrapper     WARNING  MainProcess[303608]prepareReport: [!]. Exception happened while merging part files
+2023-05-12 23:13:01,498 webScrapper     INFO     MainProcess[303608]      main: [!]. Task launched at '2023-05-12-23:13:01'
+
+2023-05-12 23:13:01,498 webScrapper     INFO     MainProcess[303608]      main: [!]. Total encountered Exceptions: 0
+2023-05-12 23:13:01,498 webScrapper     INFO     MainProcess[303608]      main: [!]. Encountered Exception IDs: 
+2023-05-12 23:13:05,395 webScrapper     INFO     MainProcess[303698]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:13:05,395 indexParser     INFO     MainProcess[303698]get_index_records: Fetching records from index page
+2023-05-12 23:13:05,395 indexParser     INFO     MainProcess[303698]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:13:05,472 webScrapper     INFO     MainProcess[303698]      main: [!]. Dumping data into output file
+2023-05-12 23:13:05,472 webScrapper     INFO     MainProcess[303698]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:13:05,472 indexParser     INFO     MainProcess[303698]get_index_records: Fetching records from index page
+2023-05-12 23:13:05,472 indexParser     INFO     MainProcess[303698]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:13:05,545 webScrapper     INFO     MainProcess[303698]      main: [!]. Dumping data into output file
+2023-05-12 23:13:05,545 webScrapper     INFO     MainProcess[303698]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:13:05,545 indexParser     INFO     MainProcess[303698]get_index_records: Fetching records from index page
+2023-05-12 23:13:05,545 indexParser     INFO     MainProcess[303698]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:13:05,632 webScrapper     INFO     MainProcess[303698]      main: [!]. Dumping data into output file
+2023-05-12 23:13:05,632 webScrapper     INFO     MainProcess[303698]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:13:05,632 indexParser     INFO     MainProcess[303698]get_index_records: Fetching records from index page
+2023-05-12 23:13:05,632 indexParser     INFO     MainProcess[303698]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:13:05,709 webScrapper     INFO     MainProcess[303698]      main: [!]. Dumping data into output file
+2023-05-12 23:13:05,709 webScrapper     INFO     MainProcess[303698]prepareReport: [!]. Merging 0 part files to create a consolidated report
+
+2023-05-12 23:13:05,709 webScrapper     WARNING  MainProcess[303698]prepareReport: [!]. Exception happened while merging part files
+2023-05-12 23:13:05,709 webScrapper     INFO     MainProcess[303698]      main: [!]. Task launched at '2023-05-12-23:13:05'
+
+2023-05-12 23:13:05,709 webScrapper     INFO     MainProcess[303698]      main: [!]. Total encountered Exceptions: 0
+2023-05-12 23:13:05,709 webScrapper     INFO     MainProcess[303698]      main: [!]. Encountered Exception IDs: 
+2023-05-12 23:13:24,635 webScrapper     INFO     MainProcess[303995]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:13:24,635 indexParser     INFO     MainProcess[303995]get_index_records: Fetching records from index page
+2023-05-12 23:13:24,635 indexParser     INFO     MainProcess[303995]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:13:24,710 webScrapper     INFO     MainProcess[303995]      main: [!]. Dumping data into output file
+2023-05-12 23:13:24,710 webScrapper     INFO     MainProcess[303995]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:13:24,710 indexParser     INFO     MainProcess[303995]get_index_records: Fetching records from index page
+2023-05-12 23:13:24,711 indexParser     INFO     MainProcess[303995]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:13:24,782 webScrapper     INFO     MainProcess[303995]      main: [!]. Dumping data into output file
+2023-05-12 23:13:24,783 webScrapper     INFO     MainProcess[303995]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:13:24,783 indexParser     INFO     MainProcess[303995]get_index_records: Fetching records from index page
+2023-05-12 23:13:24,783 indexParser     INFO     MainProcess[303995]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:13:24,873 webScrapper     INFO     MainProcess[303995]      main: [!]. Dumping data into output file
+2023-05-12 23:13:24,873 webScrapper     INFO     MainProcess[303995]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:13:24,873 indexParser     INFO     MainProcess[303995]get_index_records: Fetching records from index page
+2023-05-12 23:13:24,874 indexParser     INFO     MainProcess[303995]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:13:24,951 webScrapper     INFO     MainProcess[303995]      main: [!]. Dumping data into output file
+2023-05-12 23:13:24,951 webScrapper     INFO     MainProcess[303995]prepareReport: [!]. Merging 0 part files to create a consolidated report
+
+2023-05-12 23:13:24,951 webScrapper     WARNING  MainProcess[303995]prepareReport: [!]. Exception happened while merging part files
+2023-05-12 23:13:24,951 webScrapper     INFO     MainProcess[303995]      main: [!]. Task launched at '2023-05-12-23:13:24'
+
+2023-05-12 23:13:24,951 webScrapper     INFO     MainProcess[303995]      main: [!]. Total encountered Exceptions: 0
+2023-05-12 23:13:24,951 webScrapper     INFO     MainProcess[303995]      main: [!]. Encountered Exception IDs: 
+2023-05-12 23:13:37,857 webScrapper     INFO     MainProcess[304295]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:13:37,857 indexParser     INFO     MainProcess[304295]get_index_records: Fetching records from index page
+2023-05-12 23:13:37,857 indexParser     INFO     MainProcess[304295]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:13:37,932 webScrapper     INFO     MainProcess[304295]      main: [!]. Dumping data into output file
+2023-05-12 23:13:37,933 webScrapper     INFO     MainProcess[304295]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:13:37,933 indexParser     INFO     MainProcess[304295]get_index_records: Fetching records from index page
+2023-05-12 23:13:37,933 indexParser     INFO     MainProcess[304295]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:13:38,004 webScrapper     INFO     MainProcess[304295]      main: [!]. Dumping data into output file
+2023-05-12 23:13:38,004 webScrapper     INFO     MainProcess[304295]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:13:38,004 indexParser     INFO     MainProcess[304295]get_index_records: Fetching records from index page
+2023-05-12 23:13:38,004 indexParser     INFO     MainProcess[304295]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:13:38,093 webScrapper     INFO     MainProcess[304295]      main: [!]. Dumping data into output file
+2023-05-12 23:13:38,094 webScrapper     INFO     MainProcess[304295]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:13:38,094 indexParser     INFO     MainProcess[304295]get_index_records: Fetching records from index page
+2023-05-12 23:13:38,094 indexParser     INFO     MainProcess[304295]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:13:38,170 webScrapper     INFO     MainProcess[304295]      main: [!]. Dumping data into output file
+2023-05-12 23:13:38,170 webScrapper     INFO     MainProcess[304295]prepareReport: [!]. Merging 0 part files to create a consolidated report
+
+2023-05-12 23:13:38,171 webScrapper     WARNING  MainProcess[304295]prepareReport: [!]. Exception happened while merging part files
+2023-05-12 23:13:38,171 webScrapper     INFO     MainProcess[304295]      main: [!]. Task launched at '2023-05-12-23:13:38'
+
+2023-05-12 23:13:38,171 webScrapper     INFO     MainProcess[304295]      main: [!]. Total encountered Exceptions: 0
+2023-05-12 23:13:38,171 webScrapper     INFO     MainProcess[304295]      main: [!]. Encountered Exception IDs: 
+2023-05-12 23:14:48,035 webScrapper     INFO     MainProcess[305557]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:14:48,035 indexParser     INFO     MainProcess[305557]get_index_records: Fetching records from index page
+2023-05-12 23:14:48,035 indexParser     INFO     MainProcess[305557]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:14:48,113 webScrapper     INFO     MainProcess[305557]      main: [!]. Dumping data into output file
+2023-05-12 23:15:00,921 webScrapper     INFO     MainProcess[305823]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:15:00,921 indexParser     INFO     MainProcess[305823]get_index_records: Fetching records from index page
+2023-05-12 23:15:00,921 indexParser     INFO     MainProcess[305823]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:15:00,995 webScrapper     INFO     MainProcess[305823]      main: [!]. Dumping data into output file
+2023-05-12 23:15:22,174 webScrapper     INFO     MainProcess[306169]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:15:22,174 indexParser     INFO     MainProcess[306169]get_index_records: Fetching records from index page
+2023-05-12 23:15:22,174 indexParser     INFO     MainProcess[306169]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:15:22,399 webScrapper     INFO     MainProcess[306169]      main: [!]. Dumping data into output file
+2023-05-12 23:15:52,583 webScrapper     INFO     MainProcess[306778]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:15:52,583 indexParser     INFO     MainProcess[306778]get_index_records: Fetching records from index page
+2023-05-12 23:15:52,584 indexParser     INFO     MainProcess[306778]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:15:52,810 webScrapper     INFO     MainProcess[306778]      main: [!]. Dumping data into output file
+2023-05-12 23:16:37,427 webScrapper     INFO     MainProcess[307602]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:16:37,427 indexParser     INFO     MainProcess[307602]get_index_records: Fetching records from index page
+2023-05-12 23:16:37,427 indexParser     INFO     MainProcess[307602]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:16:37,651 webScrapper     INFO     MainProcess[307602]      main: [!]. Dumping data into output file
+2023-05-12 23:17:18,073 webScrapper     INFO     MainProcess[308314]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:17:18,073 indexParser     INFO     MainProcess[308314]get_index_records: Fetching records from index page
+2023-05-12 23:17:18,073 indexParser     INFO     MainProcess[308314]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:17:18,141 webScrapper     INFO     MainProcess[308314]      main: [!]. Dumping data into output file
+2023-05-12 23:17:18,141 webScrapper     WARNING  MainProcess[308314]dumpDataFile: [!]. No data found in the queue
+2023-05-12 23:17:18,141 webScrapper     WARNING  MainProcess[308314]dumpDataFile: [!]. No data found in the queue
+2023-05-12 23:17:18,141 webScrapper     WARNING  MainProcess[308314]dumpDataFile: [!]. No data found in the queue
+2023-05-12 23:17:18,144 webScrapper     INFO     MainProcess[308314]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:17:18.csv.part1'
+
+2023-05-12 23:17:18,144 webScrapper     INFO     MainProcess[308314]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:17:18,144 indexParser     INFO     MainProcess[308314]get_index_records: Fetching records from index page
+2023-05-12 23:17:18,144 indexParser     INFO     MainProcess[308314]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:17:18,211 webScrapper     INFO     MainProcess[308314]      main: [!]. Dumping data into output file
+2023-05-12 23:17:18,212 webScrapper     INFO     MainProcess[308314]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:17:18.csv.part2'
+
+2023-05-12 23:17:18,212 webScrapper     INFO     MainProcess[308314]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:17:18,212 indexParser     INFO     MainProcess[308314]get_index_records: Fetching records from index page
+2023-05-12 23:17:18,212 indexParser     INFO     MainProcess[308314]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:17:18,294 webScrapper     INFO     MainProcess[308314]      main: [!]. Dumping data into output file
+2023-05-12 23:17:18,295 webScrapper     INFO     MainProcess[308314]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:17:18.csv.part3'
+
+2023-05-12 23:17:18,295 webScrapper     INFO     MainProcess[308314]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:17:18,295 indexParser     INFO     MainProcess[308314]get_index_records: Fetching records from index page
+2023-05-12 23:17:18,295 indexParser     INFO     MainProcess[308314]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:17:18,363 webScrapper     INFO     MainProcess[308314]      main: [!]. Dumping data into output file
+2023-05-12 23:17:18,364 webScrapper     INFO     MainProcess[308314]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:17:18.csv.part4'
+
+2023-05-12 23:17:18,367 webScrapper     INFO     MainProcess[308314]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-12 23:17:18,367 webScrapper     INFO     MainProcess[308314]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-12-23:17:18.csv'
+
+2023-05-12 23:19:02,052 webScrapper     INFO     MainProcess[310438]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:19:02,052 indexParser     INFO     MainProcess[310438]get_index_records: Fetching records from index page
+2023-05-12 23:19:02,052 indexParser     INFO     MainProcess[310438]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:19:02,124 webScrapper     INFO     MainProcess[310438]      main: [!]. Dumping data into output file
+2023-05-12 23:19:02,124 webScrapper     WARNING  MainProcess[310438]dumpDataFile: [!]. No data found in the queue
+2023-05-12 23:19:02,124 webScrapper     WARNING  MainProcess[310438]dumpDataFile: [!]. No data found in the queue
+2023-05-12 23:19:02,124 webScrapper     WARNING  MainProcess[310438]dumpDataFile: [!]. No data found in the queue
+2023-05-12 23:19:02,125 webScrapper     INFO     MainProcess[310438]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:19:02.csv.part1'
+
+2023-05-12 23:19:02,125 webScrapper     INFO     MainProcess[310438]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:19:02,125 indexParser     INFO     MainProcess[310438]get_index_records: Fetching records from index page
+2023-05-12 23:19:02,125 indexParser     INFO     MainProcess[310438]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:19:02,194 webScrapper     INFO     MainProcess[310438]      main: [!]. Dumping data into output file
+2023-05-12 23:19:02,195 webScrapper     INFO     MainProcess[310438]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:19:02.csv.part2'
+
+2023-05-12 23:19:02,195 webScrapper     INFO     MainProcess[310438]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:19:02,195 indexParser     INFO     MainProcess[310438]get_index_records: Fetching records from index page
+2023-05-12 23:19:02,195 indexParser     INFO     MainProcess[310438]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:19:02,280 webScrapper     INFO     MainProcess[310438]      main: [!]. Dumping data into output file
+2023-05-12 23:19:02,281 webScrapper     INFO     MainProcess[310438]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:19:02.csv.part3'
+
+2023-05-12 23:19:02,281 webScrapper     INFO     MainProcess[310438]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:19:02,281 indexParser     INFO     MainProcess[310438]get_index_records: Fetching records from index page
+2023-05-12 23:19:02,281 indexParser     INFO     MainProcess[310438]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:19:02,351 webScrapper     INFO     MainProcess[310438]      main: [!]. Dumping data into output file
+2023-05-12 23:19:02,352 webScrapper     INFO     MainProcess[310438]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:19:02.csv.part4'
+
+2023-05-12 23:19:02,354 webScrapper     INFO     MainProcess[310438]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-12 23:19:02,355 webScrapper     INFO     MainProcess[310438]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-12-23:19:02.csv'
+
+2023-05-12 23:19:50,738 webScrapper     INFO     MainProcess[311386]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:19:50,738 indexParser     INFO     MainProcess[311386]get_index_records: Fetching records from index page
+2023-05-12 23:19:50,738 indexParser     INFO     MainProcess[311386]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:19:50,813 webScrapper     INFO     MainProcess[311386]      main: [!]. Dumping data into output file
+2023-05-12 23:19:50,813 webScrapper     WARNING  MainProcess[311386]dumpDataFile: [!]. No data found in the queue
+2023-05-12 23:19:50,813 webScrapper     WARNING  MainProcess[311386]dumpDataFile: [!]. No data found in the queue
+2023-05-12 23:19:50,813 webScrapper     WARNING  MainProcess[311386]dumpDataFile: [!]. No data found in the queue
+2023-05-12 23:19:50,814 webScrapper     INFO     MainProcess[311386]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:19:50.csv.part1'
+
+2023-05-12 23:19:50,814 webScrapper     INFO     MainProcess[311386]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:19:50,814 indexParser     INFO     MainProcess[311386]get_index_records: Fetching records from index page
+2023-05-12 23:19:50,814 indexParser     INFO     MainProcess[311386]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:19:50,885 webScrapper     INFO     MainProcess[311386]      main: [!]. Dumping data into output file
+2023-05-12 23:19:50,886 webScrapper     INFO     MainProcess[311386]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:19:50.csv.part2'
+
+2023-05-12 23:19:50,886 webScrapper     INFO     MainProcess[311386]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:19:50,886 indexParser     INFO     MainProcess[311386]get_index_records: Fetching records from index page
+2023-05-12 23:19:50,886 indexParser     INFO     MainProcess[311386]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:19:50,971 webScrapper     INFO     MainProcess[311386]      main: [!]. Dumping data into output file
+2023-05-12 23:19:50,972 webScrapper     INFO     MainProcess[311386]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:19:50.csv.part3'
+
+2023-05-12 23:19:50,972 webScrapper     INFO     MainProcess[311386]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:19:50,972 indexParser     INFO     MainProcess[311386]get_index_records: Fetching records from index page
+2023-05-12 23:19:50,972 indexParser     INFO     MainProcess[311386]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:19:51,045 webScrapper     INFO     MainProcess[311386]      main: [!]. Dumping data into output file
+2023-05-12 23:19:51,045 webScrapper     INFO     MainProcess[311386]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:19:50.csv.part4'
+
+2023-05-12 23:19:51,048 webScrapper     INFO     MainProcess[311386]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-12 23:19:51,048 webScrapper     INFO     MainProcess[311386]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-12-23:19:50.csv'
+
+2023-05-12 23:20:52,872 webScrapper     INFO     MainProcess[312484]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:20:52,873 indexParser     INFO     MainProcess[312484]get_index_records: Fetching records from index page
+2023-05-12 23:20:52,873 indexParser     INFO     MainProcess[312484]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:20:52,943 webScrapper     INFO     MainProcess[312484]      main: [!]. Dumping data into output file
+2023-05-12 23:20:52,943 webScrapper     WARNING  MainProcess[312484]dumpDataFile: [!]. No data found in the queue
+2023-05-12 23:20:52,943 webScrapper     WARNING  MainProcess[312484]dumpDataFile: [!]. No data found in the queue
+2023-05-12 23:20:52,943 webScrapper     WARNING  MainProcess[312484]dumpDataFile: [!]. No data found in the queue
+2023-05-12 23:20:52,944 webScrapper     INFO     MainProcess[312484]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:20:52.csv.part1'
+
+2023-05-12 23:20:52,944 webScrapper     INFO     MainProcess[312484]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:20:52,944 indexParser     INFO     MainProcess[312484]get_index_records: Fetching records from index page
+2023-05-12 23:20:52,944 indexParser     INFO     MainProcess[312484]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:20:53,012 webScrapper     INFO     MainProcess[312484]      main: [!]. Dumping data into output file
+2023-05-12 23:20:53,013 webScrapper     INFO     MainProcess[312484]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:20:52.csv.part2'
+
+2023-05-12 23:20:53,013 webScrapper     INFO     MainProcess[312484]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:20:53,013 indexParser     INFO     MainProcess[312484]get_index_records: Fetching records from index page
+2023-05-12 23:20:53,013 indexParser     INFO     MainProcess[312484]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:20:53,097 webScrapper     INFO     MainProcess[312484]      main: [!]. Dumping data into output file
+2023-05-12 23:20:53,098 webScrapper     INFO     MainProcess[312484]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:20:52.csv.part3'
+
+2023-05-12 23:20:53,098 webScrapper     INFO     MainProcess[312484]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:20:53,098 indexParser     INFO     MainProcess[312484]get_index_records: Fetching records from index page
+2023-05-12 23:20:53,098 indexParser     INFO     MainProcess[312484]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:20:53,168 webScrapper     INFO     MainProcess[312484]      main: [!]. Dumping data into output file
+2023-05-12 23:20:53,169 webScrapper     INFO     MainProcess[312484]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:20:52.csv.part4'
+
+2023-05-12 23:20:53,171 webScrapper     INFO     MainProcess[312484]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-12 23:20:53,172 webScrapper     INFO     MainProcess[312484]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-12-23:20:52.csv'
+
+2023-05-12 23:20:53,243 webScrapper     ERROR    MainProcess[312484] sendEmail: [ERROR]. Unable to send email for following reasons:
+2023-05-12 23:21:24,050 webScrapper     INFO     MainProcess[313018]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:21:24,050 indexParser     INFO     MainProcess[313018]get_index_records: Fetching records from index page
+2023-05-12 23:21:24,050 indexParser     INFO     MainProcess[313018]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:21:24,266 webScrapper     INFO     MainProcess[313018]      main: [!]. Dumping data into output file
+2023-05-12 23:21:24,267 webScrapper     WARNING  MainProcess[313018]dumpDataFile: [!]. No data found in the queue
+2023-05-12 23:21:24,267 webScrapper     WARNING  MainProcess[313018]dumpDataFile: [!]. No data found in the queue
+2023-05-12 23:21:24,267 webScrapper     WARNING  MainProcess[313018]dumpDataFile: [!]. No data found in the queue
+2023-05-12 23:21:27,357 webScrapper     INFO     MainProcess[313018]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:21:24.csv.part1'
+
+2023-05-12 23:21:27,357 webScrapper     INFO     MainProcess[313018]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:21:27,357 indexParser     INFO     MainProcess[313018]get_index_records: Fetching records from index page
+2023-05-12 23:21:27,358 indexParser     INFO     MainProcess[313018]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:21:27,553 webScrapper     INFO     MainProcess[313018]      main: [!]. Dumping data into output file
+2023-05-12 23:21:27,554 webScrapper     INFO     MainProcess[313018]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:21:24.csv.part2'
+
+2023-05-12 23:21:27,555 webScrapper     INFO     MainProcess[313018]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:21:27,555 indexParser     INFO     MainProcess[313018]get_index_records: Fetching records from index page
+2023-05-12 23:21:27,555 indexParser     INFO     MainProcess[313018]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:21:27,752 webScrapper     INFO     MainProcess[313018]      main: [!]. Dumping data into output file
+2023-05-12 23:21:27,754 webScrapper     INFO     MainProcess[313018]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:21:24.csv.part3'
+
+2023-05-12 23:21:27,754 webScrapper     INFO     MainProcess[313018]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:21:27,754 indexParser     INFO     MainProcess[313018]get_index_records: Fetching records from index page
+2023-05-12 23:21:27,754 indexParser     INFO     MainProcess[313018]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:21:27,954 webScrapper     INFO     MainProcess[313018]      main: [!]. Dumping data into output file
+2023-05-12 23:21:27,955 webScrapper     INFO     MainProcess[313018]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:21:24.csv.part4'
+
+2023-05-12 23:21:30,026 webScrapper     INFO     MainProcess[313018]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-12 23:21:30,028 webScrapper     INFO     MainProcess[313018]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-12-23:21:24.csv'
+
+2023-05-12 23:22:05,731 webScrapper     INFO     MainProcess[313862]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-12 23:22:05,732 indexParser     INFO     MainProcess[313862]get_index_records: Fetching records from index page
+2023-05-12 23:22:05,732 indexParser     INFO     MainProcess[313862]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:22:05,952 webScrapper     INFO     MainProcess[313862]      main: [!]. Dumping data into output file
+2023-05-12 23:22:05,952 webScrapper     WARNING  MainProcess[313862]dumpDataFile: [!]. No data found in the queue
+2023-05-12 23:22:05,952 webScrapper     WARNING  MainProcess[313862]dumpDataFile: [!]. No data found in the queue
+2023-05-12 23:22:05,952 webScrapper     WARNING  MainProcess[313862]dumpDataFile: [!]. No data found in the queue
+2023-05-12 23:22:05,954 webScrapper     INFO     MainProcess[313862]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:22:05.csv.part1'
+
+2023-05-12 23:22:05,954 webScrapper     INFO     MainProcess[313862]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-12 23:22:05,954 indexParser     INFO     MainProcess[313862]get_index_records: Fetching records from index page
+2023-05-12 23:22:05,954 indexParser     INFO     MainProcess[313862]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:22:06,162 webScrapper     INFO     MainProcess[313862]      main: [!]. Dumping data into output file
+2023-05-12 23:22:06,163 webScrapper     INFO     MainProcess[313862]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:22:05.csv.part2'
+
+2023-05-12 23:22:06,163 webScrapper     INFO     MainProcess[313862]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-12 23:22:06,163 indexParser     INFO     MainProcess[313862]get_index_records: Fetching records from index page
+2023-05-12 23:22:06,163 indexParser     INFO     MainProcess[313862]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:22:06,362 webScrapper     INFO     MainProcess[313862]      main: [!]. Dumping data into output file
+2023-05-12 23:22:06,363 webScrapper     INFO     MainProcess[313862]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:22:05.csv.part3'
+
+2023-05-12 23:22:06,363 webScrapper     INFO     MainProcess[313862]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-12 23:22:06,364 indexParser     INFO     MainProcess[313862]get_index_records: Fetching records from index page
+2023-05-12 23:22:06,364 indexParser     INFO     MainProcess[313862]get_index_records: Fetched 40 elements from index page
+2023-05-12 23:22:06,565 webScrapper     INFO     MainProcess[313862]      main: [!]. Dumping data into output file
+2023-05-12 23:22:06,567 webScrapper     INFO     MainProcess[313862]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-12-23:22:05.csv.part4'
+
+2023-05-12 23:22:09,610 webScrapper     INFO     MainProcess[313862]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-12 23:22:09,612 webScrapper     INFO     MainProcess[313862]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-12-23:22:05.csv'
+
+2023-05-14 11:29:03,586 webScrapper     INFO     MainProcess[374424]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-14 11:29:03,586 indexParser     INFO     MainProcess[374424]get_index_records: Fetching records from index page
+2023-05-14 11:29:03,586 indexParser     INFO     MainProcess[374424]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:29:03,658 webScrapper     INFO     MainProcess[374424]      main: [!]. Dumping data into output file
+2023-05-14 11:29:03,658 webScrapper     WARNING  MainProcess[374424]dumpDataFile: [!]. No data found in the queue
+2023-05-14 11:29:03,658 webScrapper     WARNING  MainProcess[374424]dumpDataFile: [!]. No data found in the queue
+2023-05-14 11:29:03,658 webScrapper     WARNING  MainProcess[374424]dumpDataFile: [!]. No data found in the queue
+2023-05-14 11:29:03,659 webScrapper     INFO     MainProcess[374424]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:29:03.csv.part1'
+
+2023-05-14 11:29:03,659 webScrapper     INFO     MainProcess[374424]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-14 11:29:03,659 indexParser     INFO     MainProcess[374424]get_index_records: Fetching records from index page
+2023-05-14 11:29:03,660 indexParser     INFO     MainProcess[374424]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:29:03,733 webScrapper     INFO     MainProcess[374424]      main: [!]. Dumping data into output file
+2023-05-14 11:29:03,734 webScrapper     INFO     MainProcess[374424]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:29:03.csv.part2'
+
+2023-05-14 11:29:03,734 webScrapper     INFO     MainProcess[374424]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-14 11:29:03,734 indexParser     INFO     MainProcess[374424]get_index_records: Fetching records from index page
+2023-05-14 11:29:03,734 indexParser     INFO     MainProcess[374424]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:29:03,823 webScrapper     INFO     MainProcess[374424]      main: [!]. Dumping data into output file
+2023-05-14 11:29:03,824 webScrapper     INFO     MainProcess[374424]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:29:03.csv.part3'
+
+2023-05-14 11:29:03,824 webScrapper     INFO     MainProcess[374424]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-14 11:29:03,824 indexParser     INFO     MainProcess[374424]get_index_records: Fetching records from index page
+2023-05-14 11:29:03,824 indexParser     INFO     MainProcess[374424]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:29:03,904 webScrapper     INFO     MainProcess[374424]      main: [!]. Dumping data into output file
+2023-05-14 11:29:03,905 webScrapper     INFO     MainProcess[374424]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:29:03.csv.part4'
+
+2023-05-14 11:29:03,909 webScrapper     INFO     MainProcess[374424]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-14 11:29:03,910 webScrapper     INFO     MainProcess[374424]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-14-11:29:03.csv'
+
+2023-05-14 11:29:04,458 webScrapper     ERROR    MainProcess[374424] sendEmail: [ERROR]. Unable to send email for following reasons:
+2023-05-14 11:29:19,908 webScrapper     INFO     MainProcess[374541]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-14 11:29:19,909 indexParser     INFO     MainProcess[374541]get_index_records: Fetching records from index page
+2023-05-14 11:29:19,909 indexParser     INFO     MainProcess[374541]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:29:20,136 webScrapper     INFO     MainProcess[374541]      main: [!]. Dumping data into output file
+2023-05-14 11:29:20,136 webScrapper     WARNING  MainProcess[374541]dumpDataFile: [!]. No data found in the queue
+2023-05-14 11:29:20,136 webScrapper     WARNING  MainProcess[374541]dumpDataFile: [!]. No data found in the queue
+2023-05-14 11:29:20,136 webScrapper     WARNING  MainProcess[374541]dumpDataFile: [!]. No data found in the queue
+2023-05-14 11:29:20,138 webScrapper     INFO     MainProcess[374541]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:29:19.csv.part1'
+
+2023-05-14 11:29:20,138 webScrapper     INFO     MainProcess[374541]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-14 11:29:20,138 indexParser     INFO     MainProcess[374541]get_index_records: Fetching records from index page
+2023-05-14 11:29:20,138 indexParser     INFO     MainProcess[374541]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:29:20,345 webScrapper     INFO     MainProcess[374541]      main: [!]. Dumping data into output file
+2023-05-14 11:29:20,348 webScrapper     INFO     MainProcess[374541]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:29:19.csv.part2'
+
+2023-05-14 11:29:20,348 webScrapper     INFO     MainProcess[374541]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-14 11:29:20,348 indexParser     INFO     MainProcess[374541]get_index_records: Fetching records from index page
+2023-05-14 11:29:20,348 indexParser     INFO     MainProcess[374541]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:29:20,553 webScrapper     INFO     MainProcess[374541]      main: [!]. Dumping data into output file
+2023-05-14 11:29:20,554 webScrapper     INFO     MainProcess[374541]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:29:19.csv.part3'
+
+2023-05-14 11:29:20,554 webScrapper     INFO     MainProcess[374541]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-14 11:29:20,554 indexParser     INFO     MainProcess[374541]get_index_records: Fetching records from index page
+2023-05-14 11:29:20,554 indexParser     INFO     MainProcess[374541]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:29:20,760 webScrapper     INFO     MainProcess[374541]      main: [!]. Dumping data into output file
+2023-05-14 11:29:20,761 webScrapper     INFO     MainProcess[374541]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:29:19.csv.part4'
+
+2023-05-14 11:29:20,766 webScrapper     INFO     MainProcess[374541]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-14 11:29:20,767 webScrapper     INFO     MainProcess[374541]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-14-11:29:19.csv'
+
+2023-05-14 11:53:45,484 webScrapper     INFO     MainProcess[375583]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-14 11:53:45,484 indexParser     INFO     MainProcess[375583]get_index_records: Fetching records from index page
+2023-05-14 11:53:45,484 indexParser     INFO     MainProcess[375583]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:53:45,554 webScrapper     INFO     MainProcess[375583]      main: [!]. Dumping data into output file
+2023-05-14 11:53:45,554 webScrapper     WARNING  MainProcess[375583]dumpDataFile: [!]. No data found in the queue
+2023-05-14 11:53:45,554 webScrapper     WARNING  MainProcess[375583]dumpDataFile: [!]. No data found in the queue
+2023-05-14 11:53:45,554 webScrapper     WARNING  MainProcess[375583]dumpDataFile: [!]. No data found in the queue
+2023-05-14 11:53:45,556 webScrapper     INFO     MainProcess[375583]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:53:45.csv.part1'
+
+2023-05-14 11:53:45,556 webScrapper     INFO     MainProcess[375583]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-14 11:53:45,556 indexParser     INFO     MainProcess[375583]get_index_records: Fetching records from index page
+2023-05-14 11:53:45,556 indexParser     INFO     MainProcess[375583]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:53:45,622 webScrapper     INFO     MainProcess[375583]      main: [!]. Dumping data into output file
+2023-05-14 11:53:45,623 webScrapper     INFO     MainProcess[375583]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:53:45.csv.part2'
+
+2023-05-14 11:53:45,623 webScrapper     INFO     MainProcess[375583]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-14 11:53:45,623 indexParser     INFO     MainProcess[375583]get_index_records: Fetching records from index page
+2023-05-14 11:53:45,623 indexParser     INFO     MainProcess[375583]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:53:45,707 webScrapper     INFO     MainProcess[375583]      main: [!]. Dumping data into output file
+2023-05-14 11:53:45,707 webScrapper     INFO     MainProcess[375583]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:53:45.csv.part3'
+
+2023-05-14 11:53:45,707 webScrapper     INFO     MainProcess[375583]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-14 11:53:45,707 indexParser     INFO     MainProcess[375583]get_index_records: Fetching records from index page
+2023-05-14 11:53:45,708 indexParser     INFO     MainProcess[375583]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:53:45,775 webScrapper     INFO     MainProcess[375583]      main: [!]. Dumping data into output file
+2023-05-14 11:53:45,776 webScrapper     INFO     MainProcess[375583]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:53:45.csv.part4'
+
+2023-05-14 11:53:45,778 webScrapper     INFO     MainProcess[375583]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-14 11:53:45,778 webScrapper     INFO     MainProcess[375583]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-14-11:53:45.csv'
+
+2023-05-14 11:53:46,765 webScrapper     ERROR    MainProcess[375583] sendEmail: [ERROR]. Unable to send email for following reasons:
+2023-05-14 11:54:16,836 webScrapper     INFO     MainProcess[375628]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-14 11:54:16,836 indexParser     INFO     MainProcess[375628]get_index_records: Fetching records from index page
+2023-05-14 11:54:16,837 indexParser     INFO     MainProcess[375628]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:54:16,909 webScrapper     INFO     MainProcess[375628]      main: [!]. Dumping data into output file
+2023-05-14 11:54:16,910 webScrapper     WARNING  MainProcess[375628]dumpDataFile: [!]. No data found in the queue
+2023-05-14 11:54:16,910 webScrapper     WARNING  MainProcess[375628]dumpDataFile: [!]. No data found in the queue
+2023-05-14 11:54:16,910 webScrapper     WARNING  MainProcess[375628]dumpDataFile: [!]. No data found in the queue
+2023-05-14 11:54:16,911 webScrapper     INFO     MainProcess[375628]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:54:16.csv.part1'
+
+2023-05-14 11:54:16,911 webScrapper     INFO     MainProcess[375628]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-14 11:54:16,911 indexParser     INFO     MainProcess[375628]get_index_records: Fetching records from index page
+2023-05-14 11:54:16,911 indexParser     INFO     MainProcess[375628]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:54:16,982 webScrapper     INFO     MainProcess[375628]      main: [!]. Dumping data into output file
+2023-05-14 11:54:16,983 webScrapper     INFO     MainProcess[375628]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:54:16.csv.part2'
+
+2023-05-14 11:54:16,983 webScrapper     INFO     MainProcess[375628]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-14 11:54:16,983 indexParser     INFO     MainProcess[375628]get_index_records: Fetching records from index page
+2023-05-14 11:54:16,983 indexParser     INFO     MainProcess[375628]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:54:17,067 webScrapper     INFO     MainProcess[375628]      main: [!]. Dumping data into output file
+2023-05-14 11:54:17,068 webScrapper     INFO     MainProcess[375628]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:54:16.csv.part3'
+
+2023-05-14 11:54:17,068 webScrapper     INFO     MainProcess[375628]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-14 11:54:17,068 indexParser     INFO     MainProcess[375628]get_index_records: Fetching records from index page
+2023-05-14 11:54:17,068 indexParser     INFO     MainProcess[375628]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:54:17,139 webScrapper     INFO     MainProcess[375628]      main: [!]. Dumping data into output file
+2023-05-14 11:54:17,140 webScrapper     INFO     MainProcess[375628]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:54:16.csv.part4'
+
+2023-05-14 11:54:17,142 webScrapper     INFO     MainProcess[375628]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-14 11:54:17,143 webScrapper     INFO     MainProcess[375628]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-14-11:54:16.csv'
+
+2023-05-14 11:54:18,573 webScrapper     ERROR    MainProcess[375628] sendEmail: [ERROR]. Unable to send email for following reasons:
+2023-05-14 11:55:38,941 webScrapper     INFO     MainProcess[376068]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-14 11:55:38,941 indexParser     INFO     MainProcess[376068]get_index_records: Fetching records from index page
+2023-05-14 11:55:38,941 indexParser     INFO     MainProcess[376068]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:55:39,012 webScrapper     INFO     MainProcess[376068]      main: [!]. Dumping data into output file
+2023-05-14 11:55:39,012 webScrapper     WARNING  MainProcess[376068]dumpDataFile: [!]. No data found in the queue
+2023-05-14 11:55:39,012 webScrapper     WARNING  MainProcess[376068]dumpDataFile: [!]. No data found in the queue
+2023-05-14 11:55:39,012 webScrapper     WARNING  MainProcess[376068]dumpDataFile: [!]. No data found in the queue
+2023-05-14 11:55:39,014 webScrapper     INFO     MainProcess[376068]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:55:38.csv.part1'
+
+2023-05-14 11:55:39,014 webScrapper     INFO     MainProcess[376068]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-14 11:55:39,014 indexParser     INFO     MainProcess[376068]get_index_records: Fetching records from index page
+2023-05-14 11:55:39,014 indexParser     INFO     MainProcess[376068]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:55:39,084 webScrapper     INFO     MainProcess[376068]      main: [!]. Dumping data into output file
+2023-05-14 11:55:39,085 webScrapper     INFO     MainProcess[376068]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:55:38.csv.part2'
+
+2023-05-14 11:55:39,085 webScrapper     INFO     MainProcess[376068]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-14 11:55:39,085 indexParser     INFO     MainProcess[376068]get_index_records: Fetching records from index page
+2023-05-14 11:55:39,085 indexParser     INFO     MainProcess[376068]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:55:39,168 webScrapper     INFO     MainProcess[376068]      main: [!]. Dumping data into output file
+2023-05-14 11:55:39,169 webScrapper     INFO     MainProcess[376068]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:55:38.csv.part3'
+
+2023-05-14 11:55:39,169 webScrapper     INFO     MainProcess[376068]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-14 11:55:39,169 indexParser     INFO     MainProcess[376068]get_index_records: Fetching records from index page
+2023-05-14 11:55:39,169 indexParser     INFO     MainProcess[376068]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:55:39,238 webScrapper     INFO     MainProcess[376068]      main: [!]. Dumping data into output file
+2023-05-14 11:55:39,239 webScrapper     INFO     MainProcess[376068]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:55:38.csv.part4'
+
+2023-05-14 11:55:39,242 webScrapper     INFO     MainProcess[376068]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-14 11:55:39,242 webScrapper     INFO     MainProcess[376068]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-14-11:55:38.csv'
+
+2023-05-14 11:55:40,274 webScrapper     ERROR    MainProcess[376068] sendEmail: [ERROR]. Unable to send email for following reasons:
+2023-05-14 11:55:54,637 webScrapper     INFO     MainProcess[376187]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-14 11:55:54,637 indexParser     INFO     MainProcess[376187]get_index_records: Fetching records from index page
+2023-05-14 11:55:54,637 indexParser     INFO     MainProcess[376187]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:55:54,710 webScrapper     INFO     MainProcess[376187]      main: [!]. Dumping data into output file
+2023-05-14 11:55:54,710 webScrapper     WARNING  MainProcess[376187]dumpDataFile: [!]. No data found in the queue
+2023-05-14 11:55:54,710 webScrapper     WARNING  MainProcess[376187]dumpDataFile: [!]. No data found in the queue
+2023-05-14 11:55:54,710 webScrapper     WARNING  MainProcess[376187]dumpDataFile: [!]. No data found in the queue
+2023-05-14 11:55:54,712 webScrapper     INFO     MainProcess[376187]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:55:54.csv.part1'
+
+2023-05-14 11:55:54,712 webScrapper     INFO     MainProcess[376187]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-14 11:55:54,712 indexParser     INFO     MainProcess[376187]get_index_records: Fetching records from index page
+2023-05-14 11:55:54,712 indexParser     INFO     MainProcess[376187]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:55:54,785 webScrapper     INFO     MainProcess[376187]      main: [!]. Dumping data into output file
+2023-05-14 11:55:54,786 webScrapper     INFO     MainProcess[376187]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:55:54.csv.part2'
+
+2023-05-14 11:55:54,786 webScrapper     INFO     MainProcess[376187]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-14 11:55:54,786 indexParser     INFO     MainProcess[376187]get_index_records: Fetching records from index page
+2023-05-14 11:55:54,786 indexParser     INFO     MainProcess[376187]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:55:54,874 webScrapper     INFO     MainProcess[376187]      main: [!]. Dumping data into output file
+2023-05-14 11:55:54,875 webScrapper     INFO     MainProcess[376187]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:55:54.csv.part3'
+
+2023-05-14 11:55:54,875 webScrapper     INFO     MainProcess[376187]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-14 11:55:54,875 indexParser     INFO     MainProcess[376187]get_index_records: Fetching records from index page
+2023-05-14 11:55:54,875 indexParser     INFO     MainProcess[376187]get_index_records: Fetched 40 elements from index page
+2023-05-14 11:55:54,947 webScrapper     INFO     MainProcess[376187]      main: [!]. Dumping data into output file
+2023-05-14 11:55:54,948 webScrapper     INFO     MainProcess[376187]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-11:55:54.csv.part4'
+
+2023-05-14 11:55:54,950 webScrapper     INFO     MainProcess[376187]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-14 11:55:54,951 webScrapper     INFO     MainProcess[376187]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-14-11:55:54.csv'
+
+2023-05-14 11:56:05,095 webScrapper     ERROR    MainProcess[376187] sendEmail: [ERROR]. Unable to send email for following reasons:
+2023-05-14 12:10:57,238 webScrapper     INFO     MainProcess[377051]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-14 12:10:57,239 indexParser     INFO     MainProcess[377051]get_index_records: Fetching records from index page
+2023-05-14 12:10:57,239 indexParser     INFO     MainProcess[377051]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:10:57,312 webScrapper     INFO     MainProcess[377051]      main: [!]. Dumping data into output file
+2023-05-14 12:10:57,312 webScrapper     WARNING  MainProcess[377051]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:10:57,312 webScrapper     WARNING  MainProcess[377051]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:10:57,312 webScrapper     WARNING  MainProcess[377051]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:10:57,313 webScrapper     INFO     MainProcess[377051]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:10:57.csv.part1'
+
+2023-05-14 12:10:57,313 webScrapper     INFO     MainProcess[377051]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-14 12:10:57,313 indexParser     INFO     MainProcess[377051]get_index_records: Fetching records from index page
+2023-05-14 12:10:57,313 indexParser     INFO     MainProcess[377051]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:10:57,384 webScrapper     INFO     MainProcess[377051]      main: [!]. Dumping data into output file
+2023-05-14 12:10:57,385 webScrapper     INFO     MainProcess[377051]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:10:57.csv.part2'
+
+2023-05-14 12:10:57,385 webScrapper     INFO     MainProcess[377051]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-14 12:10:57,385 indexParser     INFO     MainProcess[377051]get_index_records: Fetching records from index page
+2023-05-14 12:10:57,385 indexParser     INFO     MainProcess[377051]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:10:57,471 webScrapper     INFO     MainProcess[377051]      main: [!]. Dumping data into output file
+2023-05-14 12:10:57,472 webScrapper     INFO     MainProcess[377051]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:10:57.csv.part3'
+
+2023-05-14 12:10:57,472 webScrapper     INFO     MainProcess[377051]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-14 12:10:57,472 indexParser     INFO     MainProcess[377051]get_index_records: Fetching records from index page
+2023-05-14 12:10:57,472 indexParser     INFO     MainProcess[377051]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:10:57,543 webScrapper     INFO     MainProcess[377051]      main: [!]. Dumping data into output file
+2023-05-14 12:10:57,544 webScrapper     INFO     MainProcess[377051]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:10:57.csv.part4'
+
+2023-05-14 12:10:57,547 webScrapper     INFO     MainProcess[377051]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-14 12:10:57,547 webScrapper     INFO     MainProcess[377051]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-14-12:10:57.csv'
+
+2023-05-14 12:11:08,884 webScrapper     INFO     MainProcess[377074]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-14 12:11:08,884 indexParser     INFO     MainProcess[377074]get_index_records: Fetching records from index page
+2023-05-14 12:11:08,884 indexParser     INFO     MainProcess[377074]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:11:09,111 webScrapper     INFO     MainProcess[377074]      main: [!]. Dumping data into output file
+2023-05-14 12:11:09,111 webScrapper     WARNING  MainProcess[377074]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:11:09,111 webScrapper     WARNING  MainProcess[377074]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:11:09,111 webScrapper     WARNING  MainProcess[377074]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:11:09,113 webScrapper     INFO     MainProcess[377074]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:11:08.csv.part1'
+
+2023-05-14 12:11:09,113 webScrapper     INFO     MainProcess[377074]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-14 12:11:09,114 indexParser     INFO     MainProcess[377074]get_index_records: Fetching records from index page
+2023-05-14 12:11:09,114 indexParser     INFO     MainProcess[377074]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:11:09,318 webScrapper     INFO     MainProcess[377074]      main: [!]. Dumping data into output file
+2023-05-14 12:11:09,319 webScrapper     INFO     MainProcess[377074]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:11:08.csv.part2'
+
+2023-05-14 12:11:09,319 webScrapper     INFO     MainProcess[377074]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-14 12:11:09,319 indexParser     INFO     MainProcess[377074]get_index_records: Fetching records from index page
+2023-05-14 12:11:09,320 indexParser     INFO     MainProcess[377074]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:11:09,522 webScrapper     INFO     MainProcess[377074]      main: [!]. Dumping data into output file
+2023-05-14 12:11:09,523 webScrapper     INFO     MainProcess[377074]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:11:08.csv.part3'
+
+2023-05-14 12:11:09,523 webScrapper     INFO     MainProcess[377074]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-14 12:11:09,523 indexParser     INFO     MainProcess[377074]get_index_records: Fetching records from index page
+2023-05-14 12:11:09,523 indexParser     INFO     MainProcess[377074]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:11:09,730 webScrapper     INFO     MainProcess[377074]      main: [!]. Dumping data into output file
+2023-05-14 12:11:09,732 webScrapper     INFO     MainProcess[377074]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:11:08.csv.part4'
+
+2023-05-14 12:11:09,736 webScrapper     INFO     MainProcess[377074]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-14 12:11:09,738 webScrapper     INFO     MainProcess[377074]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-14-12:11:08.csv'
+
+2023-05-14 12:12:07,282 webScrapper     INFO     MainProcess[377286]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-14 12:12:07,282 indexParser     INFO     MainProcess[377286]get_index_records: Fetching records from index page
+2023-05-14 12:12:07,282 indexParser     INFO     MainProcess[377286]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:12:07,355 webScrapper     INFO     MainProcess[377286]      main: [!]. Dumping data into output file
+2023-05-14 12:12:07,355 webScrapper     WARNING  MainProcess[377286]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:12:07,355 webScrapper     WARNING  MainProcess[377286]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:12:07,355 webScrapper     WARNING  MainProcess[377286]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:12:07,357 webScrapper     INFO     MainProcess[377286]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:12:07.csv.part1'
+
+2023-05-14 12:12:07,357 webScrapper     INFO     MainProcess[377286]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-14 12:12:07,357 indexParser     INFO     MainProcess[377286]get_index_records: Fetching records from index page
+2023-05-14 12:12:07,357 indexParser     INFO     MainProcess[377286]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:12:07,428 webScrapper     INFO     MainProcess[377286]      main: [!]. Dumping data into output file
+2023-05-14 12:12:07,428 webScrapper     INFO     MainProcess[377286]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:12:07.csv.part2'
+
+2023-05-14 12:12:07,429 webScrapper     INFO     MainProcess[377286]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-14 12:12:07,429 indexParser     INFO     MainProcess[377286]get_index_records: Fetching records from index page
+2023-05-14 12:12:07,429 indexParser     INFO     MainProcess[377286]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:12:07,514 webScrapper     INFO     MainProcess[377286]      main: [!]. Dumping data into output file
+2023-05-14 12:12:07,515 webScrapper     INFO     MainProcess[377286]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:12:07.csv.part3'
+
+2023-05-14 12:12:07,515 webScrapper     INFO     MainProcess[377286]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-14 12:12:07,515 indexParser     INFO     MainProcess[377286]get_index_records: Fetching records from index page
+2023-05-14 12:12:07,515 indexParser     INFO     MainProcess[377286]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:12:07,596 webScrapper     INFO     MainProcess[377286]      main: [!]. Dumping data into output file
+2023-05-14 12:12:07,601 webScrapper     INFO     MainProcess[377286]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:12:07.csv.part4'
+
+2023-05-14 12:12:07,612 webScrapper     INFO     MainProcess[377286]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-14 12:12:07,615 webScrapper     INFO     MainProcess[377286]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-14-12:12:07.csv'
+
+2023-05-14 12:12:48,623 webScrapper     INFO     MainProcess[377413]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-14 12:12:48,624 indexParser     INFO     MainProcess[377413]get_index_records: Fetching records from index page
+2023-05-14 12:12:48,624 indexParser     INFO     MainProcess[377413]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:12:48,697 webScrapper     INFO     MainProcess[377413]      main: [!]. Dumping data into output file
+2023-05-14 12:12:48,697 webScrapper     WARNING  MainProcess[377413]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:12:48,697 webScrapper     WARNING  MainProcess[377413]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:12:48,697 webScrapper     WARNING  MainProcess[377413]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:12:48,699 webScrapper     INFO     MainProcess[377413]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:12:48.csv.part1'
+
+2023-05-14 12:12:48,699 webScrapper     INFO     MainProcess[377413]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-14 12:12:48,699 indexParser     INFO     MainProcess[377413]get_index_records: Fetching records from index page
+2023-05-14 12:12:48,699 indexParser     INFO     MainProcess[377413]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:12:48,769 webScrapper     INFO     MainProcess[377413]      main: [!]. Dumping data into output file
+2023-05-14 12:12:48,770 webScrapper     INFO     MainProcess[377413]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:12:48.csv.part2'
+
+2023-05-14 12:12:48,770 webScrapper     INFO     MainProcess[377413]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-14 12:12:48,770 indexParser     INFO     MainProcess[377413]get_index_records: Fetching records from index page
+2023-05-14 12:12:48,770 indexParser     INFO     MainProcess[377413]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:12:48,854 webScrapper     INFO     MainProcess[377413]      main: [!]. Dumping data into output file
+2023-05-14 12:12:48,854 webScrapper     INFO     MainProcess[377413]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:12:48.csv.part3'
+
+2023-05-14 12:12:48,854 webScrapper     INFO     MainProcess[377413]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-14 12:12:48,854 indexParser     INFO     MainProcess[377413]get_index_records: Fetching records from index page
+2023-05-14 12:12:48,855 indexParser     INFO     MainProcess[377413]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:12:48,924 webScrapper     INFO     MainProcess[377413]      main: [!]. Dumping data into output file
+2023-05-14 12:12:48,925 webScrapper     INFO     MainProcess[377413]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:12:48.csv.part4'
+
+2023-05-14 12:12:48,927 webScrapper     INFO     MainProcess[377413]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-14 12:12:48,928 webScrapper     INFO     MainProcess[377413]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-14-12:12:48.csv'
+
+2023-05-14 12:37:22,316 webScrapper     INFO     MainProcess[379830]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-14 12:37:22,316 indexParser     INFO     MainProcess[379830]get_index_records: Fetching records from index page
+2023-05-14 12:37:22,316 indexParser     INFO     MainProcess[379830]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:37:22,388 webScrapper     INFO     MainProcess[379830]      main: [!]. Dumping data into output file
+2023-05-14 12:37:22,389 webScrapper     WARNING  MainProcess[379830]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:37:22,389 webScrapper     WARNING  MainProcess[379830]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:37:22,389 webScrapper     WARNING  MainProcess[379830]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:37:22,390 webScrapper     INFO     MainProcess[379830]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:37:22.csv.part1'
+
+2023-05-14 12:37:22,390 webScrapper     INFO     MainProcess[379830]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-14 12:37:22,390 indexParser     INFO     MainProcess[379830]get_index_records: Fetching records from index page
+2023-05-14 12:37:22,390 indexParser     INFO     MainProcess[379830]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:37:22,477 webScrapper     INFO     MainProcess[379830]      main: [!]. Dumping data into output file
+2023-05-14 12:37:22,478 webScrapper     INFO     MainProcess[379830]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:37:22.csv.part2'
+
+2023-05-14 12:37:22,478 webScrapper     INFO     MainProcess[379830]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-14 12:37:22,478 indexParser     INFO     MainProcess[379830]get_index_records: Fetching records from index page
+2023-05-14 12:37:22,478 indexParser     INFO     MainProcess[379830]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:37:22,553 webScrapper     INFO     MainProcess[379830]      main: [!]. Dumping data into output file
+2023-05-14 12:37:22,554 webScrapper     INFO     MainProcess[379830]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:37:22.csv.part3'
+
+2023-05-14 12:37:22,554 webScrapper     INFO     MainProcess[379830]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-14 12:37:22,554 indexParser     INFO     MainProcess[379830]get_index_records: Fetching records from index page
+2023-05-14 12:37:22,554 indexParser     INFO     MainProcess[379830]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:37:22,626 webScrapper     INFO     MainProcess[379830]      main: [!]. Dumping data into output file
+2023-05-14 12:37:22,627 webScrapper     INFO     MainProcess[379830]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:37:22.csv.part4'
+
+2023-05-14 12:37:22,629 webScrapper     INFO     MainProcess[379830]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-14 12:37:22,630 webScrapper     INFO     MainProcess[379830]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-14-12:37:22.csv'
+
+2023-05-14 12:42:15,181 webScrapper     INFO     MainProcess[382056]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-14 12:42:15,182 indexParser     INFO     MainProcess[382056]get_index_records: Fetching records from index page
+2023-05-14 12:42:15,182 indexParser     INFO     MainProcess[382056]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:42:15,254 webScrapper     INFO     MainProcess[382056]      main: [!]. Dumping data into output file
+2023-05-14 12:42:15,254 webScrapper     WARNING  MainProcess[382056]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:42:15,254 webScrapper     WARNING  MainProcess[382056]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:42:15,254 webScrapper     WARNING  MainProcess[382056]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:42:15,255 webScrapper     INFO     MainProcess[382056]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:42:15.csv.part1'
+
+2023-05-14 12:42:15,255 webScrapper     INFO     MainProcess[382056]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-14 12:42:15,255 indexParser     INFO     MainProcess[382056]get_index_records: Fetching records from index page
+2023-05-14 12:42:15,255 indexParser     INFO     MainProcess[382056]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:42:15,337 webScrapper     INFO     MainProcess[382056]      main: [!]. Dumping data into output file
+2023-05-14 12:42:15,338 webScrapper     INFO     MainProcess[382056]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:42:15.csv.part2'
+
+2023-05-14 12:42:15,338 webScrapper     INFO     MainProcess[382056]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-14 12:42:15,338 indexParser     INFO     MainProcess[382056]get_index_records: Fetching records from index page
+2023-05-14 12:42:15,338 indexParser     INFO     MainProcess[382056]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:42:15,406 webScrapper     INFO     MainProcess[382056]      main: [!]. Dumping data into output file
+2023-05-14 12:42:15,407 webScrapper     INFO     MainProcess[382056]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:42:15.csv.part3'
+
+2023-05-14 12:42:15,407 webScrapper     INFO     MainProcess[382056]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-14 12:42:15,407 indexParser     INFO     MainProcess[382056]get_index_records: Fetching records from index page
+2023-05-14 12:42:15,407 indexParser     INFO     MainProcess[382056]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:42:15,478 webScrapper     INFO     MainProcess[382056]      main: [!]. Dumping data into output file
+2023-05-14 12:42:15,479 webScrapper     INFO     MainProcess[382056]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:42:15.csv.part4'
+
+2023-05-14 12:42:15,481 webScrapper     INFO     MainProcess[382056]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-14 12:42:15,482 webScrapper     INFO     MainProcess[382056]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-14-12:42:15.csv'
+
+2023-05-14 12:43:09,066 webScrapper     INFO     MainProcess[382100]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-14 12:43:09,066 indexParser     INFO     MainProcess[382100]get_index_records: Fetching records from index page
+2023-05-14 12:43:09,066 indexParser     INFO     MainProcess[382100]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:43:09,140 webScrapper     INFO     MainProcess[382100]      main: [!]. Dumping data into output file
+2023-05-14 12:43:09,140 webScrapper     WARNING  MainProcess[382100]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:43:09,140 webScrapper     WARNING  MainProcess[382100]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:43:09,140 webScrapper     WARNING  MainProcess[382100]dumpDataFile: [!]. No data found in the queue
+2023-05-14 12:43:09,141 webScrapper     INFO     MainProcess[382100]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:43:09.csv.part1'
+
+2023-05-14 12:43:09,141 webScrapper     INFO     MainProcess[382100]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-14 12:43:09,141 indexParser     INFO     MainProcess[382100]get_index_records: Fetching records from index page
+2023-05-14 12:43:09,141 indexParser     INFO     MainProcess[382100]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:43:09,229 webScrapper     INFO     MainProcess[382100]      main: [!]. Dumping data into output file
+2023-05-14 12:43:09,230 webScrapper     INFO     MainProcess[382100]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:43:09.csv.part2'
+
+2023-05-14 12:43:09,230 webScrapper     INFO     MainProcess[382100]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-14 12:43:09,230 indexParser     INFO     MainProcess[382100]get_index_records: Fetching records from index page
+2023-05-14 12:43:09,230 indexParser     INFO     MainProcess[382100]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:43:09,304 webScrapper     INFO     MainProcess[382100]      main: [!]. Dumping data into output file
+2023-05-14 12:43:09,305 webScrapper     INFO     MainProcess[382100]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:43:09.csv.part3'
+
+2023-05-14 12:43:09,305 webScrapper     INFO     MainProcess[382100]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-14 12:43:09,305 indexParser     INFO     MainProcess[382100]get_index_records: Fetching records from index page
+2023-05-14 12:43:09,305 indexParser     INFO     MainProcess[382100]get_index_records: Fetched 40 elements from index page
+2023-05-14 12:43:09,382 webScrapper     INFO     MainProcess[382100]      main: [!]. Dumping data into output file
+2023-05-14 12:43:09,383 webScrapper     INFO     MainProcess[382100]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-12:43:09.csv.part4'
+
+2023-05-14 12:43:09,385 webScrapper     INFO     MainProcess[382100]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-14 12:43:09,386 webScrapper     INFO     MainProcess[382100]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-14-12:43:09.csv'
+
+2023-05-14 13:02:57,248 webScrapper     INFO     MainProcess[383877]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-14 13:02:57,248 indexParser     INFO     MainProcess[383877]get_index_records: Fetching records from index page
+2023-05-14 13:02:57,248 indexParser     INFO     MainProcess[383877]get_index_records: Fetched 40 elements from index page
+2023-05-14 13:02:57,316 webScrapper     INFO     MainProcess[383877]      main: [!]. Dumping data into output file
+2023-05-14 13:02:57,316 webScrapper     WARNING  MainProcess[383877]dumpDataFile: [!]. No data found in the queue
+2023-05-14 13:02:57,316 webScrapper     WARNING  MainProcess[383877]dumpDataFile: [!]. No data found in the queue
+2023-05-14 13:02:57,316 webScrapper     WARNING  MainProcess[383877]dumpDataFile: [!]. No data found in the queue
+2023-05-14 13:02:57,318 webScrapper     INFO     MainProcess[383877]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-13:02:57.csv.part1'
+
+2023-05-14 13:02:57,318 webScrapper     INFO     MainProcess[383877]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-14 13:02:57,318 indexParser     INFO     MainProcess[383877]get_index_records: Fetching records from index page
+2023-05-14 13:02:57,318 indexParser     INFO     MainProcess[383877]get_index_records: Fetched 40 elements from index page
+2023-05-14 13:02:57,388 webScrapper     INFO     MainProcess[383877]      main: [!]. Dumping data into output file
+2023-05-14 13:02:57,389 webScrapper     INFO     MainProcess[383877]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-13:02:57.csv.part2'
+
+2023-05-14 13:02:57,389 webScrapper     INFO     MainProcess[383877]      main: [>]. Scrapping Page 3: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=3
+
+2023-05-14 13:02:57,389 indexParser     INFO     MainProcess[383877]get_index_records: Fetching records from index page
+2023-05-14 13:02:57,389 indexParser     INFO     MainProcess[383877]get_index_records: Fetched 40 elements from index page
+2023-05-14 13:02:57,473 webScrapper     INFO     MainProcess[383877]      main: [!]. Dumping data into output file
+2023-05-14 13:02:57,474 webScrapper     INFO     MainProcess[383877]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-13:02:57.csv.part3'
+
+2023-05-14 13:02:57,474 webScrapper     INFO     MainProcess[383877]      main: [>]. Scrapping Page 4: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=4
+
+2023-05-14 13:02:57,474 indexParser     INFO     MainProcess[383877]get_index_records: Fetching records from index page
+2023-05-14 13:02:57,474 indexParser     INFO     MainProcess[383877]get_index_records: Fetched 40 elements from index page
+2023-05-14 13:02:57,542 webScrapper     INFO     MainProcess[383877]      main: [!]. Dumping data into output file
+2023-05-14 13:02:57,542 webScrapper     INFO     MainProcess[383877]dumpDataFile: [>]. Data inserted successfully in './tmp/sample.csv-2023-05-14-13:02:57.csv.part4'
+
+2023-05-14 13:02:57,545 webScrapper     INFO     MainProcess[383877]prepareReport: [!]. Merging 4 part files to create a consolidated report
+
+2023-05-14 13:02:57,545 webScrapper     INFO     MainProcess[383877]prepareReport: [>]. Data report generated successfully at filepath: 'sample.csv-2023-05-14-13:02:57.csv'
+
+2023-05-14 13:02:59,521 webScrapper     INFO     MainProcess[383877]      main: [!]. Task launched at '2023-05-14-13:02:57'
+
+2023-05-14 13:02:59,521 webScrapper     INFO     MainProcess[383877]      main: [!]. Total encountered Exceptions: 0
+2023-05-14 13:02:59,521 webScrapper     INFO     MainProcess[383877]      main: [!]. Encountered Exception IDs: 
