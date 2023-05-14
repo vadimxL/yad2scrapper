@@ -1,15 +1,15 @@
 import json
 import pickle
 import unittest
-from pathlib import Path
 
-from scrapper.modules.indexParser import YAD2_TABLE_LIST, Yad2IndexParser
-from scrapper.modules.render_html import HtmlManager
+from modules.indexParser import Yad2IndexParser
+from modules.render_html import HtmlManager
 
 
 class Yad2Test(unittest.TestCase):
     def test_parse_html_from_pickled_file(self):
-        yad2_index_parser = Yad2IndexParser()
+        html_mgr = HtmlManager()
+        yad2_index_parser = Yad2IndexParser(html_mgr)
         data_rows = {}
 
         # Load the list using pickle

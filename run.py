@@ -4,13 +4,11 @@ from modules.indexParser import *
 from modules.report_maker import *
 from argparse import ArgumentParser
 from datetime import datetime
-from modules.sendEmail import sendEmail
 import os
 import time
 import re
 from selenium.webdriver.remote.remote_connection import LOGGER
 
-from scrapper.modules.send_mail import send_email
 
 LOGGER.setLevel(logging.WARNING)
 LOG_FILENAME = 'webScrapper.log'

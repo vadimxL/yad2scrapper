@@ -1,8 +1,8 @@
 ---
 username: malinvadim88@gmail.com
 password: RonMalinovsky2022
-smtpServer: smtp.gmail.com:465
-#smtpPort: 465
+smtp_host: smtp.gmail.com
+smtp_port: 587
 receiver: malinvadim88@gmail.com
 ccContact: someone@someone.com
 subject: Data Scrapping Report

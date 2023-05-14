@@ -11,7 +11,9 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-from scrapper.modules.proxy_manager import Yad2ProxyManager
+from modules.proxy_manager import Yad2ProxyManager
+
+# from scrapper.modules.proxy_manager import Yad2ProxyManager
 
 LOG_FILENAME = 'webScrapper.log'
 format = '%(asctime)s %(name)-15s %(levelname)-8s %(processName)-10s[%(process)d]%(funcName)10s: %(message)s'

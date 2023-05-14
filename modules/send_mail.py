@@ -3,15 +3,21 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
+import yaml
 
 logger = logging.getLogger('webScrapper')
 
 
 def send_email(attachment_file_paths, start_page, end_page, start_time, end_time):
+    # Open the YAML file
+    with open('db/email.yml', 'r') as file:
+        # Load the YAML data
+        data = yaml.safe_load(file)
+
     # Set up the email
     # Set up the SMTP server credentials
-    smtp_host = 'smtp.gmail.com'
-    smtp_port = 587
+    smtp_host = data['smtp_host']#  'smtp.gmail.com'
+    smtp_port = data['smtp_port']# 587
     smtp_username = 'malinvadim88@gmail.com'
     smtp_password = 'iqraxjplttxucyag'
 
@@ -46,3 +52,5 @@ def send_email(attachment_file_paths, start_page, end_page, start_time, end_time
         server.send_message(msg)
 
     print('Email sent successfully!')
+    logger.info("[>]. Report '{}' has been successfully emailed\n".format(attachment_file_paths))
+
