@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-import pickle
-import os
 from queue import Queue
-
-import requests
 import sys
 from bs4 import BeautifulSoup
 import re
@@ -11,11 +7,8 @@ import logging
 import json
 from datetime import datetime
 import time
-
 from selenium.webdriver.common.by import By
-
 from .details_parser import CarDetailsParser
-from .render_html import HtmlManager, SimpleHtmlManager, FileHtmlManager
 
 YAD2_TABLE_LIST = 'feed_list'
 LOG_FILENAME = 'webScrapper.log'
@@ -183,7 +176,7 @@ class Yad2IndexParser:
             row_details['targetUrl'] = url
             row_details['product_category'] = product_category
 
-        self.data_queue.put({counter: row_details})
+            self.data_queue.put(row_details)
 
     def scrap_url_data(self, url, use_proxy, delay_interval):
         data = self.get_index_records(url)

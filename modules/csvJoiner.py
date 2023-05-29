@@ -1,17 +1,17 @@
 import pandas as pd
 from glob import glob
 import os
-import shutil
 
-def prepareReport(outFile, dirPath, filePattern=None):
+
+def prepare_report(out_file, dir_path, filePattern=None):
     dfs = []
 
-    #search files
+    # search files
+    glob_pattern = os.path.join(dir_path, "*.csv*")
     if filePattern:
-        
-        globPattern = os.path.join(dirPath, filePattern)
+        glob_pattern = os.path.join(dir_path, filePattern)
 
-    fileParts = glob(globPattern)
+    fileParts = glob(glob_pattern)
 
     for filePart in fileParts:
         df = pd.read_csv(filePart, index_col=False, header=0)
@@ -20,14 +20,14 @@ def prepareReport(outFile, dirPath, filePattern=None):
     print("[!]. Merging {} part files to create a consolidated report\n".format(len(dfs)))
     try:
         finalDf = pd.concat(dfs, sort=False)
-        
-        finalDf.to_csv(outFile, index=False)
 
-        print ("[>]. Data report generated successfully at filepath: '{}'\n".format(outFile))
+        finalDf.to_csv(out_file, index=False)
+
+        print("[>]. Data report generated successfully at filepath: '{}'\n".format(out_file))
 
     except Exception as e:
         raise e
 
 
 if __name__ == '__main__':
-    prepareReport("finalReport-1-100-then-200-381.csv", "./tmp/", "*.csv*")
+    prepare_report("finalReport-1-100-then-200-381.csv", "./tmp/", "*.csv*")

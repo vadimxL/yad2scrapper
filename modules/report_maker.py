@@ -1,9 +1,7 @@
+import csv
 import logging
-
-import pandas as pd
 from glob import glob
 import os
-import shutil
 
 # outputDir = "./output"
 backDir = "./tmp"
@@ -20,34 +18,14 @@ def initDirs():
         raise e
 
 
-def dumpDataFile(data_queue, pageNum, outFile="scrapped.csv"):
-    # Loop to pop data from the queue
-    while not data_queue.empty():
-        item = data_queue.get()
-        data = item.get(1)
-        if data is None:
-            logger.warning("[!]. No data found in the queue")
-            continue
-        if 'id' not in data:
-            logger.warning("[!]. No id found in the data")
-            continue
+def dumpDataFile(data_queue, outFile="scrapped.csv"):
+    fieldnames = data_queue.queue[0].keys()
 
-        try:
-            df = pd.DataFrame(item)
-            if pageNum == -1:
-                df.to_csv(outFile, index=False)
-                logger.info("[>]. Data inserted successfully in '{}'\n".format(outFile))
-            else:
-                bakFile = os.path.join(backDir, "{}.part{}".format(outFile, pageNum))
-                df.to_csv(bakFile, index=False)
+    with open(outFile, 'w', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
-                logger.info("[>]. Data inserted successfully in '{}'\n".format(bakFile))
-
-            return True
-
-        except Exception as e:
-            raise e
-
+        writer.writeheader()
+        writer.writerows(list(data_queue.queue))
 
 def prepareReport(outFile, s_page_num, e_page_num):
     dfs = []

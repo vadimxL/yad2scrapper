@@ -75,3 +75,24 @@
 
 2023-05-14 14:35:52,566 webScrapper     INFO     MainProcess[393537]      main: [!]. Total encountered Exceptions: 0
 2023-05-14 14:35:52,566 webScrapper     INFO     MainProcess[393537]      main: [!]. Encountered Exception IDs: 
+2023-05-14 14:38:26,994 webScrapper     INFO     MainProcess[394093]      main: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=1
+
+2023-05-14 14:38:26,995 indexParser     INFO     MainProcess[394093]get_index_records: Fetching records from index page
+2023-05-14 14:38:26,995 indexParser     INFO     MainProcess[394093]get_index_records: Fetched 40 elements from index page
+2023-05-14 14:38:27,226 webScrapper     INFO     MainProcess[394093]      main: [!]. Dumping data into output file
+2023-05-14 14:38:27,226 webScrapper     WARNING  MainProcess[394093]dumpDataFile: [!]. No data found in the queue
+2023-05-14 14:38:27,226 webScrapper     WARNING  MainProcess[394093]dumpDataFile: [!]. No data found in the queue
+2023-05-14 14:38:27,226 webScrapper     WARNING  MainProcess[394093]dumpDataFile: [!]. No data found in the queue
+2023-05-14 14:38:27,228 webScrapper     INFO     MainProcess[394093]dumpDataFile: [>]. Data inserted successfully in './tmp/out-2023-05-14-14:38:26.csv.part1'
+
+2023-05-14 14:38:27,228 webScrapper     INFO     MainProcess[394093]      main: [>]. Scrapping Page 2: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1400--1&priceOnly=1&imgOnly=1&page=2
+
+2023-05-14 14:38:27,228 indexParser     INFO     MainProcess[394093]get_index_records: Fetching records from index page
+2023-05-14 14:38:27,228 indexParser     INFO     MainProcess[394093]get_index_records: Fetched 40 elements from index page
+2023-05-14 14:38:27,438 webScrapper     INFO     MainProcess[394093]      main: [!]. Dumping data into output file
+2023-05-14 14:38:27,439 webScrapper     INFO     MainProcess[394093]dumpDataFile: [>]. Data inserted successfully in './tmp/out-2023-05-14-14:38:26.csv.part2'
+
+2023-05-14 14:38:27,442 webScrapper     INFO     MainProcess[394093]prepareReport: [!]. Merging 2 part files to create a consolidated report
+
+2023-05-14 14:38:27,443 webScrapper     INFO     MainProcess[394093]prepareReport: [>]. Data report generated successfully at filepath: 'out-2023-05-14-14:38:26.csv'
+
