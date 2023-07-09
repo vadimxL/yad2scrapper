@@ -44,7 +44,7 @@ def save_to_csv(out_name, car_listings_sorted):
         for listing in car_listings_sorted:
             writer.writerow(listing)  # Write each car listing as a row
 
-    print(f"Car listing saved to {filename} successfully.")
+    # print(f"Car listing saved to {filename} successfully.")
 
 
 def saved_recently(current_directory):
@@ -141,26 +141,28 @@ class Yad2FavoritesScraper:
             self.save_list_of_favorite_cars(elements, file_name)
 
         # Parse HTML files and save the results to CSV files
-        # html_files_list = get_html_file_list(html_save_dir)
-        html_files_list = get_latest_html_file_without_type(self.html_save_dir)
+        html_files_list = get_html_file_list(self.html_save_dir)
+        # html_files_list = get_latest_html_file_without_type(self.html_save_dir)
+        if type(html_files_list) is str:
+            html_files_list = [html_files_list]
         for name in html_files_list:
             file_name = os.path.join(self.html_save_dir, name + '.html')
             with open(file_name, 'r') as file:
                 html_doc = file.read()
                 car_listings = self.parse_favorites(html_doc)
                 save_to_csv(os.path.join(self.csv_save_dir, name), car_listings)
-                self.save_to_db(car_listings)
+                # Extract the timestamp substring
+                timestamp_string = name.split("_")  # Assuming the timestamp is always the third substring
+                timestamp_string = timestamp_string[2] + '_' + timestamp_string[3]
+                # Parse the timestamp into a datetime object
+                timestamp = datetime.strptime(timestamp_string, "%Y-%m-%d_%H-%M")
 
-    def save_to_db(self, data_for_db):
-        print("Data for db: ", data_for_db)
-        print("Size of data_for_db: ", len(data_for_db))
-        i = 0
+                self.save_to_db(car_listings, timestamp)
+
+    def save_to_db(self, data_for_db, timestamp):
         for item in data_for_db:
-            result = self.collection.insert_one(item)
-            # Print the inserted document's _id
-            print("Inserted document ID:", result.inserted_id)
-            i += 1
-            print("Inserted {} documents".format(i))
+            self.update_and_track_history(item, timestamp)
+            # result = self.collection.update_one({'_id': item['_id']}, {'$set': item}, upsert=True)
 
     def get_mileage(self):
         pass
@@ -261,13 +263,13 @@ class Yad2FavoritesScraper:
 
             # Create a dictionary for the car listing
             car_listing = {
-                'Item ID': item_id,
+                '_id': item_id,
                 'Car Make and Model': car_make_model,
                 'Year': year,
                 'Hand': hand,
                 'Engine Size': engine_size,
-                'Price': formatted_price,
-                'Currency': currency,
+                'Price': formatted_price + " " + currency,
+                # 'Currency': currency,
                 'Link': f"https://www.yad2.co.il/item/{item_id}"
             }
 
@@ -276,9 +278,9 @@ class Yad2FavoritesScraper:
             # car_listing['mileage'] = mileage
 
             # Append the car listing to the list
-            if car_listing["Item ID"] not in seen_ids and car_listing["Item ID"] != "Item ID not found":
+            if car_listing["_id"] not in seen_ids and car_listing["_id"] != "_id not found":
                 car_listings.append(car_listing)
-                seen_ids.add(car_listing["Item ID"])
+                seen_ids.add(car_listing["_id"])
 
         # Sort the car listings by price in ascending order
         # self.translate_car_data(car_listings)
@@ -303,6 +305,20 @@ class Yad2FavoritesScraper:
                 print('car_make_model_eng is str', car_make_model_eng)
             else:
                 listing['Car Make and Model'] = car_make_model_eng.text
+
+    def update_and_track_history(self, item, timestamp):
+        # Update the fields and push the changes to history arrays
+        self.collection.update_one(
+            {'_id': item['_id']},
+            {
+                '$set': item,
+                '$push': {
+                    'priceHistory': {'timestamp': timestamp, 'value': item['Price']},
+                    'engineSizeHistory': {'timestamp': timestamp, 'value': item['Engine Size']},
+                }
+            },
+            upsert=True
+        )
 
 
 if __name__ == '__main__':
