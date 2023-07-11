@@ -9,6 +9,7 @@ from datetime import datetime
 import time
 from selenium.webdriver.common.by import By
 from .details_parser import CarDetailsParser
+from .render_html import CarDetailsHtmlManager
 
 YAD2_TABLE_LIST = 'feed_list'
 LOG_FILENAME = 'webScrapper.log'
@@ -56,6 +57,7 @@ class Yad2IndexParser:
         self.html_manager = html_manager
         self.data_queue = Queue()
         self.car_details_parser = CarDetailsParser(logger)
+        self.car_details_html_manager = CarDetailsHtmlManager()
 
     def get_soup(self, html_doc):
         soup = None
@@ -152,7 +154,7 @@ class Yad2IndexParser:
 
         main_scraped_data = {}
         secondary_scraped_data = {}
-        details_page = self.car_details_parser.download_html(details_result['detailsLink'], By.TAG_NAME, "body",
+        details_page = self.car_details_html_manager.download_html(details_result['detailsLink'], By.TAG_NAME, "body",
                                                              delay_interval, useProxy)
         if details_page:
             soup = self.get_soup(details_page)
