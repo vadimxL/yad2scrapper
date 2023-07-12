@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
-import os
 import pickle
-import random
 import logging
 import time
-
+from fake_useragent import UserAgent
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
@@ -21,6 +19,7 @@ logging.basicConfig(filename=LOG_FILENAME, format=format, level=logging.DEBUG)
 # logging.basicConfig(format=format, level=logging.DEBUG)
 logger = logging.getLogger('htmlRenderer')
 
+
 proxiesFile = "./db/proxies.txt"
 
 
@@ -29,9 +28,16 @@ class HtmlManager:
         self.proxy_manager = Yad2ProxyManager(file_name=proxiesFile, logger=logger)
         self.use_proxy = use_proxy
 
+    def generate_random_user_agent(self):
+        ua = UserAgent()
+        user_agent = ua.random
+        return user_agent
+
     def download_elements(self, url, delay_interval, use_proxy=False):
         elements = []
         options = Options()
+        options.add_argument("user-agent={}".format(self.generate_random_user_agent()))
+
         # options.add_argument("--headless")
         # Set the proxy server in ChromeOptions
 
@@ -160,33 +166,46 @@ class FileHtmlManager(HtmlManager):
         return elements
 
 
-def download_html(url, classTag, delayInterval, useProxy=False):
-    htmlDoc = None
-    options = Options()
-    # options.add_argument("--headless")
+class CarDetailsHtmlManager(HtmlManager):
+    def __int__(self, use_proxy=False):
+        super(CarDetailsHtmlManager, self).__init__(use_proxy=use_proxy)
 
-    driver = webdriver.Firefox(options=options)
+    def download_html(self, url, by_what, name, delay_interval, use_proxy=False):
+        element = None
+        options = Options()
+        # options.add_argument("--headless")
+        driver = webdriver.Firefox(options=options)
+        driver.maximize_window()
 
-    if delayInterval:
-        logger.info("[!]. Program is sleeping for {} seconds".format(delayInterval))
-        time.sleep(delayInterval)
-    try:
-        driver.get(url)
-    except Exception as e:
-        return None
+        if delay_interval:
+            logger.info("[!]. Program is sleeping for {} seconds".format(delay_interval))
+            time.sleep(delay_interval)  # seconds
 
-    headText = None
-    try:
-        WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, classTag)))
-        htmlDoc = driver.find_element(By.TAG_NAME, 'html').get_attribute('innerHTML')
-    except:
         try:
-            headText = driver.find_element(By.CLASS_NAME, 'msg-head')
-        except:
-            pass
-        logger.error("Something went wrong here")
-        if headText:
-            print("Message: {}".format(headText.text))
+            driver.get(url)
+        except Exception as e:
+            time.error("Something went wrong here, {}".format(e))
+            return None
 
-    finally:
-        driver.quit()
+        head_text = None
+        try:
+            WebDriverWait(driver, delay_interval).until(EC.element_to_be_clickable((By.CLASS_NAME, "report")))
+            element = driver.find_element(by_what, name)
+            element = element.get_attribute("innerHTML")
+
+        except Exception as e:
+            logger.error("Something went wrong here, {}".format(e))
+            try:
+                head_text = driver.find_element("class name", "msg-head")
+            except Exception as e:
+                logger.error("Something went wrong here, {}".format(e))
+                pass
+            if head_text:
+                logger.info("Message: {}".format(head_text.text))
+
+        finally:
+            driver.quit()
+            if head_text:
+                logger.info("Message: {}".format(head_text.text))
+
+        return element
