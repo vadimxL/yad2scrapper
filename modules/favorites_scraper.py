@@ -3,18 +3,15 @@ import datetime
 import json
 import locale
 import re
-import time
 from bs4 import BeautifulSoup
 import glob
 import os
 from datetime import datetime, timedelta
+import matplotlib.pyplot as plt
 
 from pymongo import MongoClient
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+
+from modules.web_crawler import SeleniumYad2Crawler, PuppeteerWebCrawler
 
 
 def setup_favorites_db():
@@ -48,9 +45,10 @@ def save_to_csv(out_name, car_listings_sorted):
 
 
 def saved_recently(current_directory):
+    minutes = 30
     # folder_name = 'folder'  # Replace with the actual folder name
     current_time = datetime.now()
-    time_threshold = timedelta(minutes=5)
+    time_threshold = timedelta(minutes=minutes)
 
     # Create the folder path relative to the current directory
     # folder_path = os.path.join(current_directory, folder_name)
@@ -76,10 +74,10 @@ def saved_recently(current_directory):
     if latest_file_path is not None:
         time_diff = current_time - latest_file_time
         if time_diff > time_threshold:
-            print("More than 5 minutes have passed since the latest .html file was created.")
+            print(f"More than {minutes} minutes have passed since the latest .html file was created.")
             return False
         else:
-            print("Less than or equal to 5 minutes have passed since the latest .html file was created.")
+            print(f"Less than or equal to {minutes} minutes have passed since the latest .html file was created.")
             return True
     else:
         print("No .html files found in the folder.")
@@ -118,6 +116,8 @@ class Yad2FavoritesScraper:
         self.username = "malinvadim88@gmail.com"
         self.password = "Alona1990"
         self.collection = setup_favorites_db()
+        # self.crawler = SeleniumYad2Crawler(self.username, self.password)
+        self.crawler = PuppeteerWebCrawler()
 
         # Create a new directory path next to the Python binary
         current_directory = os.path.dirname(os.path.abspath(__file__))
@@ -137,7 +137,7 @@ class Yad2FavoritesScraper:
                                  f"scraped_content_{datetime.now().strftime('%Y-%m-%d_%H-%M')}.html")
 
         if not saved_recently(self.html_save_dir):
-            elements = self.get_favorites_car_elements()
+            elements = self.crawler.get_favorites_car_elements()
             self.save_list_of_favorite_cars(elements, file_name)
 
         # Parse HTML files and save the results to CSV files
@@ -159,6 +159,9 @@ class Yad2FavoritesScraper:
 
                 self.save_to_db(car_listings, timestamp)
 
+        # self.plot_price_history()
+        self.print_price_changes()
+
     def save_to_db(self, data_for_db, timestamp):
         for item in data_for_db:
             self.update_and_track_history(item, timestamp)
@@ -166,37 +169,6 @@ class Yad2FavoritesScraper:
 
     def get_mileage(self):
         pass
-
-    def get_favorites_car_elements(self):
-        driver = webdriver.Chrome()  # Or use any other driver (e.g., Firefox)
-        driver.get("https://www.yad2.co.il/auth/login?continue=https%3A%2F%2Fwww.yad2.co.il%2F&analytics=Site+organic")
-
-        # Wait until the login elements are present
-        wait = WebDriverWait(driver, 30)
-        username_field = wait.until(EC.presence_of_element_located((By.ID, "email")))
-        password_field = wait.until(EC.presence_of_element_located((By.ID, "password")))
-
-        time.sleep(3)
-
-        username_field.send_keys(self.username)
-        password_field.send_keys(self.password)
-
-        time.sleep(3)
-
-        # Submit the form
-        password_field.send_keys(Keys.RETURN)
-
-        # Wait until the desired class appears\
-        time.sleep(3)
-
-        driver.get("https://www.yad2.co.il/favorites")
-
-        # Wait until the desired class appears
-        wait.until(EC.visibility_of_all_elements_located((By.CLASS_NAME, "favorite_items")))
-
-        # Scrape the desired content
-        elements = driver.find_elements(By.CLASS_NAME, "favorite_items")
-        return elements
 
     def save_list_of_favorite_cars(self, elements, file_name):
         # Open the file in write mode
@@ -288,24 +260,6 @@ class Yad2FavoritesScraper:
         # save_to_json(out_name, car_listings_sorted)
         return car_listings
 
-    def translate_car_data(self, car_listings):
-        car_listings_sorted = sorted(car_listings, key=lambda x: x['Item ID'].replace(',', ''))
-        # translator = Translator()
-        # Translate the "Car Make and Model" from Hebrew to English
-        for listing in car_listings:
-            car_make_model_heb = listing['Car Make and Model']
-            try:
-                pass
-                # car_make_model_eng = translator.translate(car_make_model_heb, dest='en')
-            except Exception as e:
-                print(f"Translation error: {e}")
-                car_make_model_eng = car_make_model_heb
-            if type(car_make_model_eng) == str:
-                listing['Car Make and Model'] = car_make_model_eng
-                print('car_make_model_eng is str', car_make_model_eng)
-            else:
-                listing['Car Make and Model'] = car_make_model_eng.text
-
     def update_and_track_history(self, item, timestamp):
         # Update the fields and push the changes to history arrays
         self.collection.update_one(
@@ -314,11 +268,74 @@ class Yad2FavoritesScraper:
                 '$set': item,
                 '$push': {
                     'priceHistory': {'timestamp': timestamp, 'value': item['Price']},
-                    'engineSizeHistory': {'timestamp': timestamp, 'value': item['Engine Size']},
                 }
             },
             upsert=True
         )
+
+    def plot_price_history(self):
+        # Create a new directory for saving the plots
+        save_directory = 'path/to/new_directory'
+        os.makedirs(save_directory, exist_ok=True)
+
+        # Iterate over the items in the collection
+        for item in self.collection.find():
+            # Create a new plot for each item
+            fig, ax = plt.subplots()
+
+            # Extract the car make and model
+            car_make_model = item['Car Make and Model']
+
+            # Extract the price history data
+            price_history = item['priceHistory']
+            timestamps = []
+            prices = []
+            for entry in price_history:
+                timestamps.append(entry['timestamp'])
+                price_string = re.sub(r'[^\d.]', '', entry['value'])  # Remove non-numeric characters
+                prices.append(float(price_string))
+
+            # Plot the price history using histogram bins
+            ax.hist(prices, bins=10)  # Adjust the number of bins as needed
+
+            ax.set_xlabel('Timestamp')
+            ax.set_ylabel('Price')
+            ax.set_title(f'Price History - {car_make_model}')
+
+            # Save each plot in the specified directory
+            filename = f'{item["_id"].replace(" ", "_")}_price_history.png'
+            save_path = os.path.join(save_directory, filename)
+            plt.savefig(save_path, dpi=300)
+
+            # Close the current plot to proceed to the next item
+            plt.close(fig)
+
+    def print_price_changes(self):
+        # Iterate over the items in the collection
+        for item in self.collection.find():
+            # Extract the car make and model
+            car_make_model = item['Car Make and Model']
+
+            # Extract the price history data
+            price_history = item['priceHistory']
+            previous_price = None
+
+            print(f"Price changes for {car_make_model}, id={item['_id']}:")
+            for entry in price_history:
+                price_string = re.sub(r'[^\d.]', '', entry['value'])  # Remove non-numeric characters
+                current_price = float(price_string)
+                timestamp = entry['timestamp']
+
+                if previous_price is not None:
+                    price_change = current_price - previous_price
+                    if price_change > 0:
+                        print(f"Current price: {current_price:.2f}, Timestamp: {timestamp}")
+                else:
+                    print(f"Current price: {current_price:.2f}, Timestamp: {timestamp}")
+
+                previous_price = current_price
+
+            print()
 
 
 if __name__ == '__main__':

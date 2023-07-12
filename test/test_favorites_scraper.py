@@ -11,6 +11,10 @@ class MyTestCase(unittest.TestCase):
         html_files_list = get_latest_html_file_without_type(html_save_dir)
         print(html_files_list)
 
+    def test_puppeteer(self):
+        elements = self.favorites_scraper.crawler.get_elements()
+        print(elements)
+
 
 if __name__ == '__main__':
     unittest.main()

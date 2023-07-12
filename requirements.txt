@@ -26,3 +26,8 @@ tzdata==2023.3
 urllib3==2.0.2
 webencodings==0.5.1
 wsproto==1.2.0
+
+pymongo~=4.3.3
+pyppeteer~=1.0.2
+matplotlib~=3.7.2
+googletrans~=4.0.0rc1
