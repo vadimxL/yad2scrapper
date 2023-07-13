@@ -117,7 +117,7 @@ class Yad2FavoritesScraper:
         self.password = "Alona1990"
         self.collection = setup_favorites_db()
         # self.crawler = SeleniumYad2Crawler(self.username, self.password)
-        self.crawler = PuppeteerWebCrawler()
+        self.crawler = PuppeteerWebCrawler(self.username, self.password)
 
         # Create a new directory path next to the Python binary
         current_directory = os.path.dirname(os.path.abspath(__file__))
@@ -137,8 +137,14 @@ class Yad2FavoritesScraper:
                                  f"scraped_content_{datetime.now().strftime('%Y-%m-%d_%H-%M')}.html")
 
         if not saved_recently(self.html_save_dir):
-            elements = self.crawler.get_favorites_car_elements()
-            self.save_list_of_favorite_cars(elements, file_name)
+            # Login to Yad2 and save the HTML of the favorites page
+            self.crawler.login()
+            content = self.crawler.get_html("https://www.yad2.co.il/favorites")
+            print()
+            # Create BeautifulSoup object and parse the HTML content
+            # soup = BeautifulSoup(content, 'html.parser')
+            # elements = soup.find_all('div', class_='favorite_items')
+            self.save_list_of_favorite_cars(content, file_name)
 
         # Parse HTML files and save the results to CSV files
         html_files_list = get_html_file_list(self.html_save_dir)

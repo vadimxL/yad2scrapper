@@ -16,10 +16,11 @@ class WebCrawler:
     def __int__(self):
         pass
 
-    def get_elements(self):
+    def get_html(self, url):
         raise NotImplementedError
-        pass
 
+    def login(self):
+        raise NotImplementedError
 
 def fill_credentials(driver, user_field, password_field, user, pw):
     # Clear any existing content in the field (optional)
@@ -51,9 +52,8 @@ class SeleniumYad2Crawler(WebCrawler):
     def __init__(self, user, pw):
         self.user = user
         self.pw = pw
-        pass
 
-    def get_elements(self):
+    def get_html(self, url):
         self.get_favorites_car_elements()
 
     def get_ad(self):
@@ -67,7 +67,7 @@ class SeleniumYad2Crawler(WebCrawler):
 
         options.add_argument(f'--user-agent={user_agent}')
         driver = webdriver.Chrome()  # Or use any other driver (e.g., Firefox)
-        driver.get("https://www.yad2.co.il/auth/login?continue=https%3A%2F%2Fwww.yad2.co.il%2F&analytics=Site+organic")
+        driver.get("https://www.yad2.co.il/auth/login?continue=https://www.yad2.co.il/favorites")
 
         # Wait until the login elements are present
         wait = WebDriverWait(driver, 30)
@@ -91,17 +91,73 @@ class SeleniumYad2Crawler(WebCrawler):
 
 
 class PuppeteerWebCrawler(WebCrawler):
-    def __init__(self):
-        pass
+    def __init__(self, user, pw):
+        self.user = user
+        self.pw = pw
+        self.loop = asyncio.get_event_loop()
 
-    def get_elements(self):
-        asyncio.get_event_loop().run_until_complete(self._get_elements())
+    def get_html(self, url):
+        self.loop.run_until_complete(self._get_elements(url))
 
-    async def _get_elements(self):
-        browser_obj = await launch({"headless": False})
-        url = await browser_obj.newPage()
-        await url.goto('https://example.com')
-        await url.screenshot({'path': 'example.png'})
+    async def _get_elements(self, url):
+        browser_obj = await launch(headless=False, args=['--no-sandbox'])
+        page = await browser_obj.newPage()
 
+        await page.setViewport({"width": 1920, "height": 1080})
+
+        ua = UserAgent()
+        user_agent = ua.random
+        print(user_agent)
+
+        await page.setUserAgent(user_agent)
+
+        await page.goto(url)
+        await page.waitFor(10000)
+        # await page.screenshot({'path': 'example.png'})
+
+        # Get HTML
+        html = await page.content()
         await browser_obj.close()
+        return html
+
+    def login(self):
+        self.loop.run_until_complete(self._login())
+
+    async def _login(self):
+        browser_obj = await launch(headless=False, args=['--use-gl=egl'])
+        page = await browser_obj.newPage()
+
+        # await page.setViewport({"width": 1920, "height": 1080})
+
+        ua = UserAgent()
+        user_agent = ua.random
+        print(user_agent)
+
+        await page.setUserAgent(user_agent)
+        # Navigate to the login page
+        # driver.get("https://www.yad2.co.il/auth/login?continue=https%3A%2F%2Fwww.yad2.co.il%2F&analytics=Site+organic")
+
+        await page.goto('https://www.yad2.co.il/auth/login')
+
+        # Wait for the username input field to appear
+        await page.waitForSelector('#username-input')
+
+        # Fill in the credentials
+        print("filling credentials, user: {}, pw: {}".format(self.user, self.pw))
+        # Simulate typing for the username field
+        await page.focus('#username-input')
+        await page.keyboard.type(self.user)
+
+        # Simulate typing for the password field
+        await page.focus('#password-input')
+        await page.keyboard.type(self.pw)
+
+        # Submit the login form
+        await page.click('#login-button')
+
+        # Wait for navigation to complete
+        await page.waitForNavigation()
+
+        # Take a screenshot after logging in
+        await page.screenshot({'path': 'loggedin.png'})
 

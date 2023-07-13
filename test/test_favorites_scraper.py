@@ -12,7 +12,7 @@ class MyTestCase(unittest.TestCase):
         print(html_files_list)
 
     def test_puppeteer(self):
-        elements = self.favorites_scraper.crawler.get_elements()
+        elements = self.favorites_scraper.crawler.get_html()
         print(elements)
 
 
