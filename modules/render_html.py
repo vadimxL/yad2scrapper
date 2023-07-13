@@ -24,7 +24,7 @@ proxiesFile = "./db/proxies.txt"
 
 
 class HtmlManager:
-    def __int__(self, use_proxy=False):
+    def __init__(self, use_proxy=False):
         self.proxy_manager = Yad2ProxyManager(file_name=proxiesFile, logger=logger)
         self.use_proxy = use_proxy
 
@@ -105,14 +105,19 @@ class HtmlManager:
             raise e
 
 
-class SimpleHtmlManager:
-    def __int__(self, use_proxy=False):
+class SimpleHtmlManager(HtmlManager):
+    def __init__(self, is_quiet, use_proxy=False):
+        self.headless = is_quiet
         super(SimpleHtmlManager, self).__init__(use_proxy=use_proxy)
 
     def download_elements(self, url, delay_interval=False, use_proxy=False):
         elements = []
         options = Options()
-        # options.add_argument("--headless")
+        if self.headless:
+            options.add_argument("--headless")
+
+        options.add_argument("user-agent={}".format(self.generate_random_user_agent()))
+
         # Set the proxy server in ChromeOptions
         driver = webdriver.Firefox(options=options)
         driver.maximize_window()
@@ -154,7 +159,7 @@ class SimpleHtmlManager:
 
 
 class FileHtmlManager(HtmlManager):
-    def __int__(self, use_proxy=False):
+    def __init__(self, is_quiet=False, use_proxy=False):
         super(FileHtmlManager, self).__init__(use_proxy=use_proxy)
 
     def download_elements(self, url, delay_interval=False, use_proxy=False):

@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 
 class Yad2ProxyManager:
-    def __int__(self, file_name, logger):
+    def __init__(self, file_name, logger):
         self.fname = file_name
         self._logger = logger
 
