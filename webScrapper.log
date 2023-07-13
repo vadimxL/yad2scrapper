@@ -1003,3 +1003,652 @@ element.find/</<@chrome://remote/content/marionette/element.sys.mjs:135:16
 
 2023-07-13 15:09:03,109 yad2_scrapper   INFO     MainProcess[38037] main_loop: [!]. Total encountered Exceptions: 0
 2023-07-13 15:09:03,110 yad2_scrapper   INFO     MainProcess[38037] main_loop: [!]. Encountered Exception IDs: 
+2023-07-13 15:30:31,013 yad2_scrapper   INFO     MainProcess[45458] main_loop: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1800--1&priceOnly=1&imgOnly=1&page=1
+
+2023-07-13 15:30:31,013 indexParser     INFO     MainProcess[45458]get_index_records: Fetching records from index page
+2023-07-13 15:30:31,018 selenium.webdriver.common.selenium_manager INFO     MainProcess[45458]driver_location: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-07-13 15:30:31,018 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: Executing process: /home/convexum/PycharmProjects/yad2scrapper/venv/lib/python3.8/site-packages/selenium/webdriver/common/linux/selenium-manager --browser firefox --output json --debug
+2023-07-13 15:30:31,095 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: Using shell command to find out firefox version
+2023-07-13 15:30:31,095 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: Running command: "firefox -v"
+2023-07-13 15:30:31,096 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: Output: "Mozilla Firefox 115.0.2"
+2023-07-13 15:30:31,096 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: The version of firefox is 115.0.2
+2023-07-13 15:30:31,096 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: Detected browser: firefox 115
+2023-07-13 15:30:31,096 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: Required driver: geckodriver 0.33.0
+2023-07-13 15:30:31,096 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: Running command: "geckodriver --version"
+2023-07-13 15:30:31,096 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: Output: ""
+2023-07-13 15:30:31,096 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: geckodriver 0.33.0 already in the cache
+2023-07-13 15:30:31,096 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]driver_location: Using driver at: /home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver
+2023-07-13 15:30:31,101 selenium.webdriver.common.service DEBUG    MainProcess[45458]_start_process: Started executable: `/home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver` in a child process with pid: 45490
+2023-07-13 15:30:31,605 urllib3.connectionpool DEBUG    MainProcess[45458] _new_conn: Starting new HTTP connection (1): localhost:55285
+2023-07-13 15:30:33,431 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session HTTP/1.1" 200 0
+2023-07-13 15:30:33,433 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/window/maximize HTTP/1.1" 200 0
+2023-07-13 15:30:41,349 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/url HTTP/1.1" 200 0
+2023-07-13 15:30:41,645 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/element HTTP/1.1" 200 0
+2023-07-13 15:30:41,665 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/element HTTP/1.1" 200 0
+2023-07-13 15:30:41,699 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/element/b34cad87-aa90-4052-8ff2-0636a0874e55/elements HTTP/1.1" 200 0
+2023-07-13 15:30:41,769 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:41,793 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:41,814 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:41,828 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:41,846 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:41,861 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:41,873 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:41,886 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:41,907 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:41,919 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:41,932 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:41,977 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:41,990 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,015 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,032 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,073 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,166 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,193 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,215 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,227 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,267 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,282 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,295 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,312 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,326 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,343 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,360 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,377 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,391 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,414 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,444 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,477 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,575 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,624 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,642 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,683 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,755 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,854 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,866 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:42,892 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "POST /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:30:43,772 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:55285 "DELETE /session/1f7ceb68-60f1-47f8-85e9-5d32ef399949 HTTP/1.1" 200 0
+2023-07-13 15:30:43,776 indexParser     INFO     MainProcess[45458]get_index_records: Fetched 40 elements from index page
+2023-07-13 15:30:43,969 yad2_scrapper   INFO     MainProcess[45458] main_loop: [!]. Dumping price changes into output file
+2023-07-13 15:30:46,159 webScrapper     INFO     MainProcess[45458]send_email: [>]. Report '['out.txt-2023-07-13-15:30:31.csv']' has been successfully emailed
+
+2023-07-13 15:30:46,159 yad2_scrapper   INFO     MainProcess[45458] main_loop: [!]. Task launched at '2023-07-13-15:30:43'
+
+2023-07-13 15:30:46,159 yad2_scrapper   INFO     MainProcess[45458] main_loop: [!]. Total encountered Exceptions: 0
+2023-07-13 15:30:46,159 yad2_scrapper   INFO     MainProcess[45458] main_loop: [!]. Encountered Exception IDs: 
+2023-07-13 15:32:46,260 yad2_scrapper   INFO     MainProcess[45458] main_loop: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1800--1&priceOnly=1&imgOnly=1&page=1
+
+2023-07-13 15:32:46,261 indexParser     INFO     MainProcess[45458]get_index_records: Fetching records from index page
+2023-07-13 15:32:46,271 selenium.webdriver.common.selenium_manager INFO     MainProcess[45458]driver_location: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-07-13 15:32:46,272 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: Executing process: /home/convexum/PycharmProjects/yad2scrapper/venv/lib/python3.8/site-packages/selenium/webdriver/common/linux/selenium-manager --browser firefox --output json --debug
+2023-07-13 15:32:46,380 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: Using shell command to find out firefox version
+2023-07-13 15:32:46,381 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: Running command: "firefox -v"
+2023-07-13 15:32:46,381 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: Output: "Mozilla Firefox 115.0.2"
+2023-07-13 15:32:46,381 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: The version of firefox is 115.0.2
+2023-07-13 15:32:46,381 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: Detected browser: firefox 115
+2023-07-13 15:32:46,381 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: Required driver: geckodriver 0.33.0
+2023-07-13 15:32:46,381 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: Running command: "geckodriver --version"
+2023-07-13 15:32:46,381 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: Output: ""
+2023-07-13 15:32:46,381 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]       run: geckodriver 0.33.0 already in the cache
+2023-07-13 15:32:46,381 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[45458]driver_location: Using driver at: /home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver
+2023-07-13 15:32:46,384 selenium.webdriver.common.service DEBUG    MainProcess[45458]_start_process: Started executable: `/home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver` in a child process with pid: 46553
+2023-07-13 15:32:46,386 urllib3.connectionpool DEBUG    MainProcess[45458] _new_conn: Starting new HTTP connection (1): localhost:54595
+2023-07-13 15:32:48,179 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session HTTP/1.1" 200 0
+2023-07-13 15:32:48,182 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/window/maximize HTTP/1.1" 200 0
+2023-07-13 15:32:56,624 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/url HTTP/1.1" 200 0
+2023-07-13 15:32:56,787 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/element HTTP/1.1" 200 0
+2023-07-13 15:32:56,814 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/element HTTP/1.1" 200 0
+2023-07-13 15:32:56,837 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/element/02f3a679-f4a3-492b-b272-dcab77efdafc/elements HTTP/1.1" 200 0
+2023-07-13 15:32:56,879 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:56,900 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:56,916 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:56,932 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:56,944 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:56,961 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:56,977 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:56,994 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,012 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,028 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,044 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,062 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,078 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,096 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,120 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,136 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,151 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,165 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,181 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,211 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,253 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,274 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,287 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,365 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,380 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,394 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,409 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,436 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,451 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,479 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,494 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,509 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,534 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,549 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,563 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,584 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,613 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,661 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,786 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:57,797 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "POST /session/2e209900-6c86-4152-bd75-a0b5611af9f5/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:32:58,821 urllib3.connectionpool DEBUG    MainProcess[45458]_make_request: http://localhost:54595 "DELETE /session/2e209900-6c86-4152-bd75-a0b5611af9f5 HTTP/1.1" 200 0
+2023-07-13 15:32:58,824 indexParser     INFO     MainProcess[45458]get_index_records: Fetched 40 elements from index page
+2023-07-13 15:32:59,024 yad2_scrapper   INFO     MainProcess[45458] main_loop: [!]. Dumping price changes into output file
+2023-07-13 15:33:00,806 webScrapper     INFO     MainProcess[45458]send_email: [>]. Report '['out.txt-2023-07-13-15:30:31.csv']' has been successfully emailed
+
+2023-07-13 15:33:00,806 yad2_scrapper   INFO     MainProcess[45458] main_loop: [!]. Task launched at '2023-07-13-15:32:59'
+
+2023-07-13 15:33:00,807 yad2_scrapper   INFO     MainProcess[45458] main_loop: [!]. Total encountered Exceptions: 0
+2023-07-13 15:33:00,807 yad2_scrapper   INFO     MainProcess[45458] main_loop: [!]. Encountered Exception IDs: 
+2023-07-13 15:34:38,276 yad2_scrapper   INFO     MainProcess[47421] main_loop: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1800--1&priceOnly=1&imgOnly=1&page=1
+
+2023-07-13 15:34:38,276 indexParser     INFO     MainProcess[47421]get_index_records: Fetching records from index page
+2023-07-13 15:34:38,280 selenium.webdriver.common.selenium_manager INFO     MainProcess[47421]driver_location: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-07-13 15:34:38,280 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: Executing process: /home/convexum/PycharmProjects/yad2scrapper/venv/lib/python3.8/site-packages/selenium/webdriver/common/linux/selenium-manager --browser firefox --output json --debug
+2023-07-13 15:34:38,341 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: Using shell command to find out firefox version
+2023-07-13 15:34:38,341 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: Running command: "firefox -v"
+2023-07-13 15:34:38,341 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: Output: "Mozilla Firefox 115.0.2"
+2023-07-13 15:34:38,341 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: The version of firefox is 115.0.2
+2023-07-13 15:34:38,341 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: Detected browser: firefox 115
+2023-07-13 15:34:38,341 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: Required driver: geckodriver 0.33.0
+2023-07-13 15:34:38,341 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: Running command: "geckodriver --version"
+2023-07-13 15:34:38,341 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: Output: ""
+2023-07-13 15:34:38,341 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: geckodriver 0.33.0 already in the cache
+2023-07-13 15:34:38,341 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]driver_location: Using driver at: /home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver
+2023-07-13 15:34:38,345 selenium.webdriver.common.service DEBUG    MainProcess[47421]_start_process: Started executable: `/home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver` in a child process with pid: 47454
+2023-07-13 15:34:38,347 urllib3.connectionpool DEBUG    MainProcess[47421] _new_conn: Starting new HTTP connection (1): localhost:59837
+2023-07-13 15:34:40,236 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session HTTP/1.1" 200 0
+2023-07-13 15:34:40,239 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/window/maximize HTTP/1.1" 200 0
+2023-07-13 15:34:48,534 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/url HTTP/1.1" 200 0
+2023-07-13 15:34:48,654 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/element HTTP/1.1" 200 0
+2023-07-13 15:34:48,664 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/element HTTP/1.1" 200 0
+2023-07-13 15:34:48,683 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/element/e7172f06-6a46-4c53-9412-49b8162ab9a4/elements HTTP/1.1" 200 0
+2023-07-13 15:34:48,730 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:48,741 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:48,752 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:48,773 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:48,794 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:48,812 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:48,826 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:48,843 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:48,857 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:48,870 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:48,892 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:48,904 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:48,917 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:48,930 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:48,944 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:48,955 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:48,969 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:48,980 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:48,994 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,006 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,019 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,041 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,058 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,070 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,083 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,097 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,139 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,156 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,171 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,186 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,214 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,230 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,248 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,263 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,274 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,287 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,304 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,316 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,329 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:49,344 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "POST /session/5edec994-3342-46cd-b577-5f13c03c735d/execute/sync HTTP/1.1" 200 0
+2023-07-13 15:34:50,278 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:59837 "DELETE /session/5edec994-3342-46cd-b577-5f13c03c735d HTTP/1.1" 200 0
+2023-07-13 15:34:50,283 indexParser     INFO     MainProcess[47421]get_index_records: Fetched 40 elements from index page
+2023-07-13 15:34:50,465 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 145000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,465 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 126000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,465 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 131900.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,465 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 136000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,465 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 120000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,465 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 126000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,465 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 125000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,465 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 123000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,465 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 139000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,465 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 123000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,466 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 132000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,466 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 137000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,466 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 120000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,466 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 115000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,466 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 139000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,466 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 113000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,466 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 129000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,466 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 130000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,466 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 136000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,466 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 149999.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,466 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 117500.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,466 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 130000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,466 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 119000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,466 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 147000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,466 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 139400.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,466 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 129900.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,466 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 125400.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,466 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 119900.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,467 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 108000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,467 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 143000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,467 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 143000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,467 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 139000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,467 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 136000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,467 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 119900.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,467 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 115000.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,467 yad2_scrapper   INFO     MainProcess[47421]get_price_changes: [!]. First price: 114900.00 at 2023-07-13-15:34:38
+2023-07-13 15:34:50,467 yad2_scrapper   INFO     MainProcess[47421] main_loop: [!]. Dumping price changes into output file
+2023-07-13 15:34:52,167 webScrapper     INFO     MainProcess[47421]send_email: [>]. Report '['out.txt-2023-07-13-15:34:38.csv']' has been successfully emailed
+
+2023-07-13 15:34:52,167 yad2_scrapper   INFO     MainProcess[47421] main_loop: [!]. Task launched at '2023-07-13-15:34:50'
+
+2023-07-13 15:34:52,167 yad2_scrapper   INFO     MainProcess[47421] main_loop: [!]. Total encountered Exceptions: 0
+2023-07-13 15:34:52,168 yad2_scrapper   INFO     MainProcess[47421] main_loop: [!]. Encountered Exception IDs: 
+2023-07-13 15:36:52,268 yad2_scrapper   INFO     MainProcess[47421] main_loop: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1800--1&priceOnly=1&imgOnly=1&page=1
+
+2023-07-13 15:36:52,268 indexParser     INFO     MainProcess[47421]get_index_records: Fetching records from index page
+2023-07-13 15:36:52,277 selenium.webdriver.common.selenium_manager INFO     MainProcess[47421]driver_location: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-07-13 15:36:52,278 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: Executing process: /home/convexum/PycharmProjects/yad2scrapper/venv/lib/python3.8/site-packages/selenium/webdriver/common/linux/selenium-manager --browser firefox --output json --debug
+2023-07-13 15:36:52,388 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: Using shell command to find out firefox version
+2023-07-13 15:36:52,389 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: Running command: "firefox -v"
+2023-07-13 15:36:52,389 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: Output: "Mozilla Firefox 115.0.2"
+2023-07-13 15:36:52,389 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: The version of firefox is 115.0.2
+2023-07-13 15:36:52,389 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: Detected browser: firefox 115
+2023-07-13 15:36:52,389 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: Required driver: geckodriver 0.33.0
+2023-07-13 15:36:52,389 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: Running command: "geckodriver --version"
+2023-07-13 15:36:52,390 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: Output: ""
+2023-07-13 15:36:52,390 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]       run: geckodriver 0.33.0 already in the cache
+2023-07-13 15:36:52,390 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[47421]driver_location: Using driver at: /home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver
+2023-07-13 15:36:52,400 selenium.webdriver.common.service DEBUG    MainProcess[47421]_start_process: Started executable: `/home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver` in a child process with pid: 48328
+2023-07-13 15:36:52,903 urllib3.connectionpool DEBUG    MainProcess[47421] _new_conn: Starting new HTTP connection (1): localhost:41765
+2023-07-13 15:36:54,639 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session HTTP/1.1" 200 0
+2023-07-13 15:36:54,687 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/window/maximize HTTP/1.1" 200 0
+2023-07-13 15:36:55,950 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/url HTTP/1.1" 200 0
+2023-07-13 15:36:55,965 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:36:56,475 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:36:56,986 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:36:57,495 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:36:58,006 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:36:58,520 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:36:59,030 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:36:59,541 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:00,050 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:00,559 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:01,070 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:01,575 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:02,087 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:02,597 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:03,108 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:03,620 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:04,132 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:04,639 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:05,148 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:05,654 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:06,166 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:06,671 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:07,180 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:07,685 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:08,190 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:08,701 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:09,210 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:09,719 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:10,228 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:10,737 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:11,247 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:11,757 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:12,266 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:12,776 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:13,284 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:13,793 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:14,302 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:14,812 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:15,322 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:15,831 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:16,340 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:16,849 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:17,358 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:17,862 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:18,367 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:18,870 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:19,374 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:19,878 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:20,383 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:20,886 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:21,389 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:21,892 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:22,395 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:22,899 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:23,402 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:23,911 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:24,415 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:24,930 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:25,433 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:25,938 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 404 0
+2023-07-13 15:37:26,439 htmlRenderer    ERROR    MainProcess[47421]download_elements: Something went wrong here, Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+element.find/</<@chrome://remote/content/marionette/element.sys.mjs:135:16
+
+2023-07-13 15:37:26,445 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "POST /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element HTTP/1.1" 200 0
+2023-07-13 15:37:27,268 urllib3.connectionpool DEBUG    MainProcess[47421]_make_request: http://localhost:41765 "DELETE /session/83b74192-c288-479e-b3d7-5a7d06cc66c9 HTTP/1.1" 200 0
+2023-07-13 15:37:27,271 urllib3.connectionpool DEBUG    MainProcess[47421] _new_conn: Starting new HTTP connection (1): localhost:41765
+2023-07-13 15:37:27,271 urllib3.util.retry DEBUG    MainProcess[47421] increment: Incremented Retry for (url='/session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element/bee33edb-b90f-4abd-842d-5c8aa026c96b/text'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2023-07-13 15:37:27,271 urllib3.connectionpool WARNING  MainProcess[47421]   urlopen: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa679b56820>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element/bee33edb-b90f-4abd-842d-5c8aa026c96b/text
+2023-07-13 15:37:27,272 urllib3.connectionpool DEBUG    MainProcess[47421] _new_conn: Starting new HTTP connection (2): localhost:41765
+2023-07-13 15:37:27,272 urllib3.util.retry DEBUG    MainProcess[47421] increment: Incremented Retry for (url='/session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element/bee33edb-b90f-4abd-842d-5c8aa026c96b/text'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2023-07-13 15:37:27,272 urllib3.connectionpool WARNING  MainProcess[47421]   urlopen: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa679b56bb0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element/bee33edb-b90f-4abd-842d-5c8aa026c96b/text
+2023-07-13 15:37:27,272 urllib3.connectionpool DEBUG    MainProcess[47421] _new_conn: Starting new HTTP connection (3): localhost:41765
+2023-07-13 15:37:27,272 urllib3.util.retry DEBUG    MainProcess[47421] increment: Incremented Retry for (url='/session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element/bee33edb-b90f-4abd-842d-5c8aa026c96b/text'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-07-13 15:37:27,272 urllib3.connectionpool WARNING  MainProcess[47421]   urlopen: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa679b56dc0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element/bee33edb-b90f-4abd-842d-5c8aa026c96b/text
+2023-07-13 15:37:27,273 urllib3.connectionpool DEBUG    MainProcess[47421] _new_conn: Starting new HTTP connection (4): localhost:41765
+2023-07-13 15:37:27,273 yad2_scrapper   INFO     MainProcess[47421] main_loop: HTTPConnectionPool(host='localhost', port=41765): Max retries exceeded with url: /session/83b74192-c288-479e-b3d7-5a7d06cc66c9/element/bee33edb-b90f-4abd-842d-5c8aa026c96b/text (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa679b562e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-07-13 15:37:27,273 yad2_scrapper   INFO     MainProcess[47421] main_loop: [!]. Exception happened at page 1
+2023-07-13 15:39:08,314 yad2_scrapper   INFO     MainProcess[49231] main_loop: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1800--1&priceOnly=1&imgOnly=1&page=1
+
+2023-07-13 15:39:08,314 indexParser     INFO     MainProcess[49231]get_index_records: Fetching records from index page
+2023-07-13 15:39:08,315 indexParser     INFO     MainProcess[49231]get_index_records: Fetched 40 elements from index page
+2023-07-13 15:39:45,571 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 149000.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:47,218 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 142000.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:47,847 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 135000.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:48,280 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 149000.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:48,745 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 120000.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:49,208 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 95000.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:49,609 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 144420.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:49,977 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 143000.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:50,369 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 145000.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:50,751 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 114900.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:52,209 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 135000.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:52,785 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 140000.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:53,455 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 130000.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:54,072 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 133000.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:54,714 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 145000.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:55,413 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 150000.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:56,456 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 150000.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:57,392 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 140000.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:58,221 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 142000.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:58,912 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 133000.00 at 2023-07-13-15:39:08
+2023-07-13 15:39:59,708 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 139000.00 at 2023-07-13-15:39:08
+2023-07-13 15:41:16,988 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 139900.00 at 2023-07-13-15:39:08
+2023-07-13 15:41:18,076 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 149900.00 at 2023-07-13-15:39:08
+2023-07-13 15:41:18,765 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 110000.00 at 2023-07-13-15:39:08
+2023-07-13 15:41:19,377 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 138000.00 at 2023-07-13-15:39:08
+2023-07-13 15:41:19,942 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 145000.00 at 2023-07-13-15:39:08
+2023-07-13 15:41:20,615 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 110000.00 at 2023-07-13-15:39:08
+2023-07-13 15:41:21,450 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 147900.00 at 2023-07-13-15:39:08
+2023-07-13 15:41:22,506 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 125000.00 at 2023-07-13-15:39:08
+2023-07-13 15:41:23,556 yad2_scrapper   INFO     MainProcess[49231]get_price_changes: [!]. First price: 144900.00 at 2023-07-13-15:39:08
+2023-07-13 15:44:35,144 yad2_scrapper   INFO     MainProcess[50623] main_loop: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1800--1&priceOnly=1&imgOnly=1&page=1
+
+2023-07-13 15:44:35,144 indexParser     INFO     MainProcess[50623]get_index_records: Fetching records from index page
+2023-07-13 15:44:35,144 indexParser     INFO     MainProcess[50623]get_index_records: Fetched 40 elements from index page
+2023-07-13 15:44:35,319 yad2_scrapper   INFO     MainProcess[50623] main_loop: [!]. Dumping price changes into output file
+2023-07-13 15:44:37,382 webScrapper     INFO     MainProcess[50623]send_email: [>]. Report '['out.txt-2023-07-13-15:44:35.csv']' has been successfully emailed
+
+2023-07-13 15:44:37,382 yad2_scrapper   INFO     MainProcess[50623] main_loop: [!]. Task launched at '2023-07-13-15:44:35'
+
+2023-07-13 15:44:37,383 yad2_scrapper   INFO     MainProcess[50623] main_loop: [!]. Total encountered Exceptions: 0
+2023-07-13 15:44:37,383 yad2_scrapper   INFO     MainProcess[50623] main_loop: [!]. Encountered Exception IDs: 
+2023-07-13 15:46:37,481 yad2_scrapper   INFO     MainProcess[50623] main_loop: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1800--1&priceOnly=1&imgOnly=1&page=1
+
+2023-07-13 15:46:37,481 indexParser     INFO     MainProcess[50623]get_index_records: Fetching records from index page
+2023-07-13 15:46:37,481 indexParser     INFO     MainProcess[50623]get_index_records: Fetched 40 elements from index page
+2023-07-13 15:46:38,810 yad2_scrapper   INFO     MainProcess[51101] main_loop: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1800--1&priceOnly=1&imgOnly=1&page=1
+
+2023-07-13 15:46:38,811 indexParser     INFO     MainProcess[51101]get_index_records: Fetching records from index page
+2023-07-13 15:46:38,811 indexParser     INFO     MainProcess[51101]get_index_records: Fetched 40 elements from index page
+2023-07-13 15:46:39,001 yad2_scrapper   INFO     MainProcess[51101] main_loop: [!]. Dumping price changes into output file
+2023-07-13 15:46:43,693 yad2_scrapper   INFO     MainProcess[51151] main_loop: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1800--1&priceOnly=1&imgOnly=1&page=1
+
+2023-07-13 15:46:43,693 indexParser     INFO     MainProcess[51151]get_index_records: Fetching records from index page
+2023-07-13 15:46:43,693 indexParser     INFO     MainProcess[51151]get_index_records: Fetched 40 elements from index page
+2023-07-13 15:46:43,862 yad2_scrapper   INFO     MainProcess[51151] main_loop: [!]. Dumping price changes into output file
+2023-07-13 15:47:29,598 yad2_scrapper   INFO     MainProcess[51335] main_loop: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1800--1&priceOnly=1&imgOnly=1&page=1
+
+2023-07-13 15:47:29,598 indexParser     INFO     MainProcess[51335]get_index_records: Fetching records from index page
+2023-07-13 15:47:29,599 indexParser     INFO     MainProcess[51335]get_index_records: Fetched 40 elements from index page
+2023-07-13 15:47:29,766 yad2_scrapper   INFO     MainProcess[51335] main_loop: [!]. No price changes found
+2023-07-13 15:48:18,228 yad2_scrapper   INFO     MainProcess[51579] main_loop: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1800--1&priceOnly=1&imgOnly=1&page=1
+
+2023-07-13 15:48:18,228 indexParser     INFO     MainProcess[51579]get_index_records: Fetching records from index page
+2023-07-13 15:48:18,231 selenium.webdriver.common.selenium_manager INFO     MainProcess[51579]driver_location: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-07-13 15:48:18,232 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[51579]       run: Executing process: /home/convexum/PycharmProjects/yad2scrapper/venv/lib/python3.8/site-packages/selenium/webdriver/common/linux/selenium-manager --browser firefox --output json --debug
+2023-07-13 15:48:18,293 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[51579]       run: Using shell command to find out firefox version
+2023-07-13 15:48:18,293 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[51579]       run: Running command: "firefox -v"
+2023-07-13 15:48:18,293 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[51579]       run: Output: "Mozilla Firefox 115.0.2"
+2023-07-13 15:48:18,293 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[51579]       run: The version of firefox is 115.0.2
+2023-07-13 15:48:18,293 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[51579]       run: Detected browser: firefox 115
+2023-07-13 15:48:18,293 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[51579]       run: Required driver: geckodriver 0.33.0
+2023-07-13 15:48:18,293 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[51579]       run: Running command: "geckodriver --version"
+2023-07-13 15:48:18,293 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[51579]       run: Output: ""
+2023-07-13 15:48:18,293 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[51579]       run: geckodriver 0.33.0 already in the cache
+2023-07-13 15:48:18,293 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[51579]driver_location: Using driver at: /home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver
+2023-07-13 15:48:18,297 selenium.webdriver.common.service DEBUG    MainProcess[51579]_start_process: Started executable: `/home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver` in a child process with pid: 51613
+2023-07-13 15:48:18,299 urllib3.connectionpool DEBUG    MainProcess[51579] _new_conn: Starting new HTTP connection (1): localhost:57025
+2023-07-13 15:48:20,168 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session HTTP/1.1" 200 0
+2023-07-13 15:48:20,199 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/window/maximize HTTP/1.1" 200 0
+2023-07-13 15:48:23,220 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/url HTTP/1.1" 200 0
+2023-07-13 15:48:23,231 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:23,741 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:24,253 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:24,757 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:25,266 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:25,780 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:26,291 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:26,794 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:27,299 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:27,810 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:28,324 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:28,835 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:29,345 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:29,850 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:30,359 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:30,863 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:31,375 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:31,888 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:32,402 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:32,912 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:33,422 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:33,927 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:34,434 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:34,937 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:35,442 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:35,948 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:36,454 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:36,958 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:37,461 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:37,965 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:38,468 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:38,976 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:39,480 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:39,983 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:40,487 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:40,990 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:41,493 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:42,002 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:42,512 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:43,016 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:43,519 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:44,023 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:44,527 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:45,035 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:45,539 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:46,043 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:46,546 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:47,055 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:47,565 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:48,074 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:48,584 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:49,091 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:49,598 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:50,101 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:50,608 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:51,113 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:51,616 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:52,119 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:52,627 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:53,134 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 404 0
+2023-07-13 15:48:53,635 htmlRenderer    ERROR    MainProcess[51579]download_elements: Something went wrong here, Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:187:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:505:5
+element.find/</<@chrome://remote/content/marionette/element.sys.mjs:135:16
+
+2023-07-13 15:48:53,642 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "POST /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element HTTP/1.1" 200 0
+2023-07-13 15:48:54,443 urllib3.connectionpool DEBUG    MainProcess[51579]_make_request: http://localhost:57025 "DELETE /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138 HTTP/1.1" 200 0
+2023-07-13 15:48:54,446 urllib3.connectionpool DEBUG    MainProcess[51579] _new_conn: Starting new HTTP connection (1): localhost:57025
+2023-07-13 15:48:54,447 urllib3.util.retry DEBUG    MainProcess[51579] increment: Incremented Retry for (url='/session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element/5c07da53-5551-4de1-a28a-9e4179c6711f/text'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2023-07-13 15:48:54,447 urllib3.connectionpool WARNING  MainProcess[51579]   urlopen: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc92c9354c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element/5c07da53-5551-4de1-a28a-9e4179c6711f/text
+2023-07-13 15:48:54,447 urllib3.connectionpool DEBUG    MainProcess[51579] _new_conn: Starting new HTTP connection (2): localhost:57025
+2023-07-13 15:48:54,447 urllib3.util.retry DEBUG    MainProcess[51579] increment: Incremented Retry for (url='/session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element/5c07da53-5551-4de1-a28a-9e4179c6711f/text'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2023-07-13 15:48:54,447 urllib3.connectionpool WARNING  MainProcess[51579]   urlopen: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc92c935730>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element/5c07da53-5551-4de1-a28a-9e4179c6711f/text
+2023-07-13 15:48:54,447 urllib3.connectionpool DEBUG    MainProcess[51579] _new_conn: Starting new HTTP connection (3): localhost:57025
+2023-07-13 15:48:54,447 urllib3.util.retry DEBUG    MainProcess[51579] increment: Incremented Retry for (url='/session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element/5c07da53-5551-4de1-a28a-9e4179c6711f/text'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2023-07-13 15:48:54,448 urllib3.connectionpool WARNING  MainProcess[51579]   urlopen: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc92c935ac0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element/5c07da53-5551-4de1-a28a-9e4179c6711f/text
+2023-07-13 15:48:54,448 urllib3.connectionpool DEBUG    MainProcess[51579] _new_conn: Starting new HTTP connection (4): localhost:57025
+2023-07-13 15:48:54,448 yad2_scrapper   INFO     MainProcess[51579] main_loop: HTTPConnectionPool(host='localhost', port=57025): Max retries exceeded with url: /session/d935a85a-f6b7-4ba4-a0e8-3b0484189138/element/5c07da53-5551-4de1-a28a-9e4179c6711f/text (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc92c935c10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-07-13 15:48:54,448 yad2_scrapper   INFO     MainProcess[51579] main_loop: [!]. Exception happened at page 1
+2023-07-13 15:49:48,087 yad2_scrapper   INFO     MainProcess[52414] main_loop: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1800--1&priceOnly=1&imgOnly=1&page=1
+
+2023-07-13 15:49:48,087 indexParser     INFO     MainProcess[52414]get_index_records: Fetching records from index page
+2023-07-13 15:49:48,090 selenium.webdriver.common.selenium_manager INFO     MainProcess[52414]driver_location: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-07-13 15:49:48,090 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[52414]       run: Executing process: /home/convexum/PycharmProjects/yad2scrapper/venv/lib/python3.8/site-packages/selenium/webdriver/common/linux/selenium-manager --browser firefox --output json --debug
+2023-07-13 15:49:48,148 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[52414]       run: Using shell command to find out firefox version
+2023-07-13 15:49:48,148 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[52414]       run: Running command: "firefox -v"
+2023-07-13 15:49:48,148 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[52414]       run: Output: "Mozilla Firefox 115.0.2"
+2023-07-13 15:49:48,148 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[52414]       run: The version of firefox is 115.0.2
+2023-07-13 15:49:48,148 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[52414]       run: Detected browser: firefox 115
+2023-07-13 15:49:48,148 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[52414]       run: Required driver: geckodriver 0.33.0
+2023-07-13 15:49:48,148 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[52414]       run: Running command: "geckodriver --version"
+2023-07-13 15:49:48,148 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[52414]       run: Output: ""
+2023-07-13 15:49:48,148 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[52414]       run: geckodriver 0.33.0 already in the cache
+2023-07-13 15:49:48,148 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[52414]driver_location: Using driver at: /home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver
+2023-07-13 15:49:48,152 selenium.webdriver.common.service DEBUG    MainProcess[52414]_start_process: Started executable: `/home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver` in a child process with pid: 52448
+2023-07-13 15:49:48,153 urllib3.connectionpool DEBUG    MainProcess[52414] _new_conn: Starting new HTTP connection (1): localhost:34795
+2023-07-13 15:49:50,056 urllib3.connectionpool DEBUG    MainProcess[52414]_make_request: http://localhost:34795 "POST /session HTTP/1.1" 200 0
+2023-07-13 15:49:50,059 urllib3.connectionpool DEBUG    MainProcess[52414]_make_request: http://localhost:34795 "POST /session/1408858b-c212-4f79-8177-a2d2fd89f3c0/window/maximize HTTP/1.1" 200 0
+2023-07-13 15:49:51,170 urllib3.connectionpool DEBUG    MainProcess[52414]_make_request: http://localhost:34795 "POST /session/1408858b-c212-4f79-8177-a2d2fd89f3c0/url HTTP/1.1" 200 0
+2023-07-13 15:49:51,182 urllib3.connectionpool DEBUG    MainProcess[52414]_make_request: http://localhost:34795 "POST /session/1408858b-c212-4f79-8177-a2d2fd89f3c0/element HTTP/1.1" 200 0
+2023-07-13 15:49:51,215 urllib3.connectionpool DEBUG    MainProcess[52414]_make_request: http://localhost:34795 "GET /session/1408858b-c212-4f79-8177-a2d2fd89f3c0/element/521e705d-80fc-4f44-9f88-f42e4597fd6c/text HTTP/1.1" 200 0
+2023-07-13 15:49:51,253 urllib3.connectionpool DEBUG    MainProcess[52414]_make_request: http://localhost:34795 "GET /session/1408858b-c212-4f79-8177-a2d2fd89f3c0/element/521e705d-80fc-4f44-9f88-f42e4597fd6c/text HTTP/1.1" 200 0
+2023-07-13 15:49:51,253 htmlRenderer    INFO     MainProcess[52414]download_elements: Message: ?Are you for real
+2023-07-13 15:49:51,257 yad2_scrapper   INFO     MainProcess[52414] main_loop: object of type 'NoneType' has no len()
+2023-07-13 15:49:51,257 yad2_scrapper   INFO     MainProcess[52414] main_loop: [!]. Exception happened at page 1
+2023-07-13 15:52:54,762 yad2_scrapper   INFO     MainProcess[53667] main_loop: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1800--1&priceOnly=1&imgOnly=1&page=1
+
+2023-07-13 15:52:54,763 indexParser     INFO     MainProcess[53667]get_index_records: Fetching records from index page
+2023-07-13 15:52:54,766 selenium.webdriver.common.selenium_manager INFO     MainProcess[53667]driver_location: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-07-13 15:52:54,766 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[53667]       run: Executing process: /home/convexum/PycharmProjects/yad2scrapper/venv/lib/python3.8/site-packages/selenium/webdriver/common/linux/selenium-manager --browser firefox --output json --debug
+2023-07-13 15:52:54,820 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[53667]       run: Using shell command to find out firefox version
+2023-07-13 15:52:54,821 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[53667]       run: Running command: "firefox -v"
+2023-07-13 15:52:54,821 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[53667]       run: Output: "Mozilla Firefox 115.0.2"
+2023-07-13 15:52:54,821 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[53667]       run: The version of firefox is 115.0.2
+2023-07-13 15:52:54,821 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[53667]       run: Detected browser: firefox 115
+2023-07-13 15:52:54,821 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[53667]       run: Required driver: geckodriver 0.33.0
+2023-07-13 15:52:54,821 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[53667]       run: Running command: "geckodriver --version"
+2023-07-13 15:52:54,821 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[53667]       run: Output: ""
+2023-07-13 15:52:54,821 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[53667]       run: geckodriver 0.33.0 already in the cache
+2023-07-13 15:52:54,821 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[53667]driver_location: Using driver at: /home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver
+2023-07-13 15:52:54,824 selenium.webdriver.common.service DEBUG    MainProcess[53667]_start_process: Started executable: `/home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver` in a child process with pid: 53700
+2023-07-13 15:52:54,826 urllib3.connectionpool DEBUG    MainProcess[53667] _new_conn: Starting new HTTP connection (1): localhost:47103
+2023-07-13 15:52:56,639 urllib3.connectionpool DEBUG    MainProcess[53667]_make_request: http://localhost:47103 "POST /session HTTP/1.1" 200 0
+2023-07-13 15:52:56,643 urllib3.connectionpool DEBUG    MainProcess[53667]_make_request: http://localhost:47103 "POST /session/f633ad2e-bdf7-42a4-8a4c-119764158292/window/maximize HTTP/1.1" 200 0
+2023-07-13 15:52:59,874 urllib3.connectionpool DEBUG    MainProcess[53667]_make_request: http://localhost:47103 "POST /session/f633ad2e-bdf7-42a4-8a4c-119764158292/url HTTP/1.1" 200 0
+2023-07-13 15:52:59,885 urllib3.connectionpool DEBUG    MainProcess[53667]_make_request: http://localhost:47103 "POST /session/f633ad2e-bdf7-42a4-8a4c-119764158292/element HTTP/1.1" 200 0
+2023-07-13 15:52:59,914 urllib3.connectionpool DEBUG    MainProcess[53667]_make_request: http://localhost:47103 "GET /session/f633ad2e-bdf7-42a4-8a4c-119764158292/element/6e151ecd-cf92-461f-b021-0ecdf4e43142/text HTTP/1.1" 200 0
+2023-07-13 15:52:59,920 urllib3.connectionpool DEBUG    MainProcess[53667]_make_request: http://localhost:47103 "GET /session/f633ad2e-bdf7-42a4-8a4c-119764158292/element/6e151ecd-cf92-461f-b021-0ecdf4e43142/text HTTP/1.1" 200 0
+2023-07-13 15:52:59,920 htmlRenderer    INFO     MainProcess[53667]download_elements: Message: ?Are you for real
+2023-07-13 15:52:59,923 yad2_scrapper   INFO     MainProcess[53667] main_loop: object of type 'NoneType' has no len()
+2023-07-13 15:52:59,923 yad2_scrapper   INFO     MainProcess[53667] main_loop: [!]. Exception happened at page 1
+2023-07-13 15:53:52,718 yad2_scrapper   INFO     MainProcess[54422] main_loop: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1800--1&priceOnly=1&imgOnly=1&page=1
+
+2023-07-13 15:53:52,719 indexParser     INFO     MainProcess[54422]get_index_records: Fetching records from index page
+2023-07-13 15:53:52,723 selenium.webdriver.common.selenium_manager INFO     MainProcess[54422]driver_location: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-07-13 15:53:52,723 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[54422]       run: Executing process: /home/convexum/PycharmProjects/yad2scrapper/venv/lib/python3.8/site-packages/selenium/webdriver/common/linux/selenium-manager --browser firefox --output json --debug
+2023-07-13 15:53:52,786 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[54422]       run: Using shell command to find out firefox version
+2023-07-13 15:53:52,786 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[54422]       run: Running command: "firefox -v"
+2023-07-13 15:53:52,786 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[54422]       run: Output: "Mozilla Firefox 115.0.2"
+2023-07-13 15:53:52,786 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[54422]       run: The version of firefox is 115.0.2
+2023-07-13 15:53:52,786 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[54422]       run: Detected browser: firefox 115
+2023-07-13 15:53:52,786 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[54422]       run: Required driver: geckodriver 0.33.0
+2023-07-13 15:53:52,786 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[54422]       run: Running command: "geckodriver --version"
+2023-07-13 15:53:52,786 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[54422]       run: Output: ""
+2023-07-13 15:53:52,786 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[54422]       run: geckodriver 0.33.0 already in the cache
+2023-07-13 15:53:52,786 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[54422]driver_location: Using driver at: /home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver
+2023-07-13 15:53:52,790 selenium.webdriver.common.service DEBUG    MainProcess[54422]_start_process: Started executable: `/home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver` in a child process with pid: 54456
+2023-07-13 15:53:52,792 urllib3.connectionpool DEBUG    MainProcess[54422] _new_conn: Starting new HTTP connection (1): localhost:58999
+2023-07-13 15:53:54,568 urllib3.connectionpool DEBUG    MainProcess[54422]_make_request: http://localhost:58999 "POST /session HTTP/1.1" 200 0
+2023-07-13 15:53:54,571 urllib3.connectionpool DEBUG    MainProcess[54422]_make_request: http://localhost:58999 "POST /session/baab13ed-02c3-466f-ba4c-95cd2a46b255/window/maximize HTTP/1.1" 200 0
+2023-07-13 15:53:57,715 urllib3.connectionpool DEBUG    MainProcess[54422]_make_request: http://localhost:58999 "POST /session/baab13ed-02c3-466f-ba4c-95cd2a46b255/url HTTP/1.1" 200 0
+2023-07-13 15:53:57,728 urllib3.connectionpool DEBUG    MainProcess[54422]_make_request: http://localhost:58999 "POST /session/baab13ed-02c3-466f-ba4c-95cd2a46b255/element HTTP/1.1" 200 0
+2023-07-13 15:53:57,754 urllib3.connectionpool DEBUG    MainProcess[54422]_make_request: http://localhost:58999 "GET /session/baab13ed-02c3-466f-ba4c-95cd2a46b255/element/bca0a991-c09b-4451-bb16-bb77d60b7fcf/text HTTP/1.1" 200 0
+2023-07-13 15:53:57,760 urllib3.connectionpool DEBUG    MainProcess[54422]_make_request: http://localhost:58999 "GET /session/baab13ed-02c3-466f-ba4c-95cd2a46b255/element/bca0a991-c09b-4451-bb16-bb77d60b7fcf/text HTTP/1.1" 200 0
+2023-07-13 15:53:57,760 htmlRenderer    INFO     MainProcess[54422]download_elements: Message: ?Are you for real
+2023-07-13 15:53:57,763 indexParser     INFO     MainProcess[54422]get_index_records: Fetched 0 elements from index page
+2023-07-13 15:53:57,765 yad2_scrapper   INFO     MainProcess[54422] main_loop: [!]. Dumping price changes into output file
+2023-07-13 15:53:59,689 webScrapper     INFO     MainProcess[54422]send_email: [>]. Report '['out.txt-2023-07-13-15:53:52.csv']' has been successfully emailed
+
+2023-07-13 15:53:59,690 yad2_scrapper   INFO     MainProcess[54422] main_loop: [!]. Task launched at '2023-07-13-15:53:57'
+
+2023-07-13 15:53:59,690 yad2_scrapper   INFO     MainProcess[54422] main_loop: [!]. Total encountered Exceptions: 0
+2023-07-13 15:53:59,690 yad2_scrapper   INFO     MainProcess[54422] main_loop: [!]. Encountered Exception IDs: 
+2023-07-13 15:55:28,235 yad2_scrapper   INFO     MainProcess[55405] main_loop: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1800--1&priceOnly=1&imgOnly=1&page=1
+
+2023-07-13 15:55:28,235 indexParser     INFO     MainProcess[55405]get_index_records: Fetching records from index page
+2023-07-13 15:55:28,238 selenium.webdriver.common.selenium_manager INFO     MainProcess[55405]driver_location: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-07-13 15:55:28,238 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[55405]       run: Executing process: /home/convexum/PycharmProjects/yad2scrapper/venv/lib/python3.8/site-packages/selenium/webdriver/common/linux/selenium-manager --browser firefox --output json --debug
+2023-07-13 15:55:28,315 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[55405]       run: Using shell command to find out firefox version
+2023-07-13 15:55:28,316 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[55405]       run: Running command: "firefox -v"
+2023-07-13 15:55:28,316 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[55405]       run: Output: "Mozilla Firefox 115.0.2"
+2023-07-13 15:55:28,316 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[55405]       run: The version of firefox is 115.0.2
+2023-07-13 15:55:28,316 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[55405]       run: Detected browser: firefox 115
+2023-07-13 15:55:28,317 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[55405]       run: Required driver: geckodriver 0.33.0
+2023-07-13 15:55:28,317 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[55405]       run: Running command: "geckodriver --version"
+2023-07-13 15:55:28,317 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[55405]       run: Output: ""
+2023-07-13 15:55:28,317 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[55405]       run: geckodriver 0.33.0 already in the cache
+2023-07-13 15:55:28,317 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[55405]driver_location: Using driver at: /home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver
+2023-07-13 15:55:28,328 selenium.webdriver.common.service DEBUG    MainProcess[55405]_start_process: Started executable: `/home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver` in a child process with pid: 55438
+2023-07-13 15:55:28,335 urllib3.connectionpool DEBUG    MainProcess[55405] _new_conn: Starting new HTTP connection (1): localhost:40885
+2023-07-13 15:55:30,117 urllib3.connectionpool DEBUG    MainProcess[55405]_make_request: http://localhost:40885 "POST /session HTTP/1.1" 200 0
+2023-07-13 15:55:30,155 urllib3.connectionpool DEBUG    MainProcess[55405]_make_request: http://localhost:40885 "POST /session/98af13e9-b155-41f3-9a3e-0d6001ba33dc/window/maximize HTTP/1.1" 200 0
+2023-07-13 15:55:33,199 urllib3.connectionpool DEBUG    MainProcess[55405]_make_request: http://localhost:40885 "POST /session/98af13e9-b155-41f3-9a3e-0d6001ba33dc/url HTTP/1.1" 200 0
+2023-07-13 15:55:33,213 urllib3.connectionpool DEBUG    MainProcess[55405]_make_request: http://localhost:40885 "POST /session/98af13e9-b155-41f3-9a3e-0d6001ba33dc/element HTTP/1.1" 200 0
+2023-07-13 15:55:33,241 urllib3.connectionpool DEBUG    MainProcess[55405]_make_request: http://localhost:40885 "GET /session/98af13e9-b155-41f3-9a3e-0d6001ba33dc/element/765222b0-b54f-4e1e-8f31-b52314870f0f/text HTTP/1.1" 200 0
+2023-07-13 15:55:33,241 yad2_scrapper   INFO     MainProcess[55405] main_loop: Are you for real? CAPTCHA solving is required
+2023-07-13 15:55:33,241 yad2_scrapper   INFO     MainProcess[55405] main_loop: [!]. Exception happened at page 1
+2023-07-13 15:56:16,392 yad2_scrapper   INFO     MainProcess[56149] main_loop: [>]. Scrapping Page 1: https://www.yad2.co.il/vehicles/cars?carFamilyType=10,5&year=2020-2023&price=0-150000&km=0-40000&hand=0-1&ownerID=1&engineval=1800--1&priceOnly=1&imgOnly=1&page=1
+
+2023-07-13 15:56:16,392 indexParser     INFO     MainProcess[56149]get_index_records: Fetching records from index page
+2023-07-13 15:56:16,395 selenium.webdriver.common.selenium_manager INFO     MainProcess[56149]driver_location: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-07-13 15:56:16,396 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[56149]       run: Executing process: /home/convexum/PycharmProjects/yad2scrapper/venv/lib/python3.8/site-packages/selenium/webdriver/common/linux/selenium-manager --browser firefox --output json --debug
+2023-07-13 15:56:16,480 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[56149]       run: Using shell command to find out firefox version
+2023-07-13 15:56:16,481 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[56149]       run: Running command: "firefox -v"
+2023-07-13 15:56:16,481 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[56149]       run: Output: "Mozilla Firefox 115.0.2"
+2023-07-13 15:56:16,481 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[56149]       run: The version of firefox is 115.0.2
+2023-07-13 15:56:16,482 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[56149]       run: Detected browser: firefox 115
+2023-07-13 15:56:16,482 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[56149]       run: Required driver: geckodriver 0.33.0
+2023-07-13 15:56:16,482 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[56149]       run: Running command: "geckodriver --version"
+2023-07-13 15:56:16,482 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[56149]       run: Output: ""
+2023-07-13 15:56:16,482 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[56149]       run: geckodriver 0.33.0 already in the cache
+2023-07-13 15:56:16,483 selenium.webdriver.common.selenium_manager DEBUG    MainProcess[56149]driver_location: Using driver at: /home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver
+2023-07-13 15:56:16,493 selenium.webdriver.common.service DEBUG    MainProcess[56149]_start_process: Started executable: `/home/convexum/.cache/selenium/geckodriver/linux64/0.33.0/geckodriver` in a child process with pid: 56182
+2023-07-13 15:56:16,498 urllib3.connectionpool DEBUG    MainProcess[56149] _new_conn: Starting new HTTP connection (1): localhost:52971
+2023-07-13 15:56:18,260 urllib3.connectionpool DEBUG    MainProcess[56149]_make_request: http://localhost:52971 "POST /session HTTP/1.1" 200 0
+2023-07-13 15:56:18,262 urllib3.connectionpool DEBUG    MainProcess[56149]_make_request: http://localhost:52971 "POST /session/bbd56bec-b6f3-4c3d-9788-1bad3184520b/window/maximize HTTP/1.1" 200 0
+2023-07-13 15:56:21,317 urllib3.connectionpool DEBUG    MainProcess[56149]_make_request: http://localhost:52971 "POST /session/bbd56bec-b6f3-4c3d-9788-1bad3184520b/url HTTP/1.1" 200 0
+2023-07-13 15:56:21,331 urllib3.connectionpool DEBUG    MainProcess[56149]_make_request: http://localhost:52971 "POST /session/bbd56bec-b6f3-4c3d-9788-1bad3184520b/element HTTP/1.1" 200 0
+2023-07-13 15:56:21,357 urllib3.connectionpool DEBUG    MainProcess[56149]_make_request: http://localhost:52971 "GET /session/bbd56bec-b6f3-4c3d-9788-1bad3184520b/element/760ff02c-8774-421d-970d-6b8c18cd6681/text HTTP/1.1" 200 0
+2023-07-13 15:56:21,357 yad2_scrapper   INFO     MainProcess[56149] main_loop: [!]. Exception Are you for real? CAPTCHA solving is required happened at page 1

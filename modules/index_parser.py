@@ -46,11 +46,6 @@ proxies = {
     'https': "socks5://127.0.0.1:9050"
 }
 
-headers = {
-    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/61.0"
-}
-rootUrl = "http://www.yad2.co.il"
-
 
 class Yad2IndexParser:
     def __init__(self, html_manager):
@@ -103,7 +98,6 @@ class Yad2IndexParser:
         data_rows = []
         for element in elements:
             soup = self.get_soup(element)
-            # data_rows.append(self.get_data(soup))
             data_rows.append(soup)
 
         return data_rows
@@ -194,19 +188,6 @@ class Yad2IndexParser:
 class Yad2IndexParserSimple(Yad2IndexParser):
     def __init__(self, html_manager):
         super(Yad2IndexParserSimple, self).__init__(html_manager=html_manager)
-
-    def get_index_records(self, url) -> list:
-        logger.info("Fetching records from index page")
-
-        elements = self.html_manager.download_elements(url)
-        logger.info("Fetched {} elements from index page".format(len(elements)))
-
-        data_rows = []
-        for element in elements:
-            soup = self.get_soup(element)
-            data_rows.append(soup)
-
-        return data_rows
 
     def get_record_details(self, record, delay_interval, useProxy) -> dict:
         details_result = {}

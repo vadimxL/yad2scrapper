@@ -46,23 +46,17 @@ class Yad2Scrapper:
             except Exception as e:
                 exceptionCount += 1
                 exception_ids.append(pageNum)
-                logger.info(e)
-                logger.info("[!]. Exception happened at page {}".format(pageNum))
+                logger.info("[!]. Exception {} happened at page {}".format(e, pageNum))
                 exit(1)
-
-            # logger.info("[!]. Dumping data into output file")
-            # fieldnames = output_data.queue[0].keys()
-
-            # with open(out_file, 'w', newline='') as csvfile:
-            #     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-            #
-            #     writer.writeheader()
-            #     writer.writerows(list(output_data.queue))
 
             data_for_db.extend(list(output_data.queue))
 
         self.save_to_db(data_for_db, self.timestamp)
         price_changes = self.get_price_changes()
+
+        if price_changes is None:
+            logger.info("[!]. No price changes found")
+            return
 
         logger.info("[!]. Dumping price changes into output file")
         with open(out_file, "w") as f:
@@ -121,31 +115,27 @@ class Yad2Scrapper:
 
             # Extract the price history data
             price_history = item['priceHistory']
-            previous_price = None
+            num_entries = len(price_history)
+
+            if num_entries < 2:
+                continue  # Skip if there's only one price history entry
 
             price_changes += f"{car_make_model}, id={item['_id']}, "
-            for entry in price_history:
-                price_string = re.sub(r'[^\d.]', '', entry['value'])  # Remove non-numeric characters
-                try:
-                    current_price = float(price_string)
-                except ValueError:
-                    current_price = 0.0
 
-                timestamp = entry['timestamp']
+            # Extract the last two entries
+            last_two_entries = price_history[-2:]
 
-                if previous_price is not None:
-                    price_change = current_price - previous_price
-                    if price_change > 0:
-                        price_changes += f"{previous_price:.2f}, " \
-                                         f"{current_price:.2f}, " \
-                                         f"{timestamp}"
-                else:
-                    price_changes += f"{current_price:.2f}, " \
-                                     f"{current_price:.2f}, " \
-                                     f"{timestamp}"
+            # Extract the prices and timestamps
+            current_price = float(re.sub(r'[^\d.]', '', last_two_entries[1]['value']))
+            previous_price = float(re.sub(r'[^\d.]', '', last_two_entries[0]['value']))
+            current_timestamp = last_two_entries[1]['timestamp']
 
-                previous_price = current_price
-
-            price_changes += "\n"
+            # Check if the price changed
+            if current_price != previous_price:
+                price_changes += f"{previous_price:.2f}, {current_price:.2f}, {current_timestamp}"
+                price_changes += "\n"
+            else:
+                return None
 
         return price_changes
+

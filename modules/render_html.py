@@ -11,7 +11,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 from modules.proxy_manager import Yad2ProxyManager
 
-# from scrapper.modules.proxy_manager import Yad2ProxyManager
 
 LOG_FILENAME = 'webScrapper.log'
 format = '%(asctime)s %(name)-15s %(levelname)-8s %(processName)-10s[%(process)d]%(funcName)10s: %(message)s'
@@ -19,9 +18,8 @@ logging.basicConfig(filename=LOG_FILENAME, format=format, level=logging.DEBUG)
 # logging.basicConfig(format=format, level=logging.DEBUG)
 logger = logging.getLogger('htmlRenderer')
 
-
 proxiesFile = "./db/proxies.txt"
-
+root_url = "https://www.yad2.co.il"
 
 class HtmlManager:
     def __init__(self, use_proxy=False):
@@ -109,9 +107,6 @@ class SimpleHtmlManager(HtmlManager):
     def __init__(self, is_quiet, use_proxy=False):
         self.headless = is_quiet
         super(SimpleHtmlManager, self).__init__(use_proxy=use_proxy)
-
-    def download_elements(self, url, delay_interval=False, use_proxy=False):
-        elements = []
         options = Options()
         if self.headless:
             options.add_argument("--headless")
@@ -119,16 +114,37 @@ class SimpleHtmlManager(HtmlManager):
         options.add_argument("user-agent={}".format(self.generate_random_user_agent()))
 
         # Set the proxy server in ChromeOptions
-        driver = webdriver.Firefox(options=options)
-        driver.maximize_window()
+        self.driver = webdriver.Firefox(options=options)
 
+        head_text = self.driver.find_element("tag name", "h1")
+        if 'Are you for real' in head_text.text:
+
+            raise Exception("Are you for real? CAPTCHA solving is required")
+
+
+    def download_elements(self, url, delay_interval=False, use_proxy=False):
+        elements = []
+        # options = Options()
+        # if self.headless:
+        #     options.add_argument("--headless")
+        #
+        # options.add_argument("user-agent={}".format(self.generate_random_user_agent()))
+        #
+        # # Set the proxy server in ChromeOptions
+        # driver = webdriver.Firefox(options=options)
+        # driver.maximize_window()
+        #
         try:
-            driver.get(url)
+            self.driver.get(url)
         except Exception as e:
             logger.error("Something went wrong here, {}".format(e))
-            return None
+            return elements
 
-        head_text = None
+        head_text = driver.find_element("tag name", "h1")
+        if 'Are you for real' in head_text.text:
+            driver.quit()
+            raise Exception("Are you for real? CAPTCHA solving is required")
+
         try:
             WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "feed_list")))
             feed_list = driver.find_element(By.CLASS_NAME, "feed_list")
@@ -143,13 +159,10 @@ class SimpleHtmlManager(HtmlManager):
         except Exception as e:
             logger.error("Something went wrong here, {}".format(e))
             try:
-                head_text = driver.find_element("class name", "msg-head")
+                head_text = driver.find_element("tag name", "h1")
             except Exception as e:
                 logger.error("Something went wrong here, {}".format(e))
                 pass
-            if head_text:
-                logger.info("Message: {}".format(head_text.text))
-
         finally:
             driver.quit()
             if head_text:
